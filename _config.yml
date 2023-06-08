@@ -15,39 +15,36 @@ locale                   : "en-US"
 title                    : "Site Title"
 subtitle                 : # site tagline that appears below site title in masthead
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Ying Ma's Personal Website"
+description              : "Welcome!"
 
 # Site Author info
 ##################################################
 author:
-  name             : "Your Name"
-  avatar           : "/assets/images/bio-photo.png"
+  name             : "Ying Ma"
+  avatar           : "/assets/images/headshot.png"
   bio              : "My very short description"
   location: "Somewhere"
   #links that appear in the authors navigation sidebar
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square fa-lg"
-      url: "mailto:your_email@email.com"
+      url: "mailto:yingma@umich.edu"
     - label: "ResearchGate"
       icon: "fab fa-researchgate fa-lg"
-      url: "https://www.researchgate.net/"
-    - label: "ORCID"
-      icon: "fab fa-orcid fa-lg"
-      url: "https://orcid.org/"
+      url: "https://www.researchgate.net/profile/Ying-Ma-26"
     - label: "Google Scholar"
       icon: "ai ai-google-scholar-square"
-      url: "https://scholar.google.com/"
+      url: "https://scholar.google.com/citations?user=SaJWms0AAAAJ&hl=en"
     - label: "LinkedIn"
       icon: "fab fa-linkedin fa-lg"
-      url: "https://LinkedIn.com/"
+      url: "https://www.linkedin.com/in/ying-ma-a74106148/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square fa-lg"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/yingma0107"
     - label: "GitHub"
       icon: "fab fa-fw fa-github fa-lg"
-      url: "https://github.com/"
+      url: "https://github.com/YingMa0107"
 
 # Social Sharing
 ##################################################
