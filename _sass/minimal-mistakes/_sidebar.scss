@@ -23,10 +23,6 @@
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
 
-    &:hover {
-      opacity: 1;
-    }
-
     &.sticky {
       overflow-y: auto;
       /* calculate height of nav list
@@ -89,6 +85,13 @@
       position: sticky;
       top: 2em;
       float: right;
+
+      .toc {
+        .toc__menu {
+          overflow-y: auto;
+          max-height: calc(100vh - 7em);
+        }
+      }
     }
   }
 
@@ -127,8 +130,8 @@
   }
 
   img {
-    max-width: 220px;
-    border-radius: 0%;
+    max-width: 240px;
+    border-radius: 80%;
 
     @include breakpoint($large) {
       padding: 0px;
