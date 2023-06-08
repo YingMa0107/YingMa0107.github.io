@@ -12,11 +12,11 @@
 # Basic info
 ##################################################
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Ying Ma's Personal Website"
 subtitle                 : # site tagline that appears below site title in masthead
 title_separator          : "-"
 name                     : "Ying Ma's Personal Website"
-description              : "Welcome!"
+description              : "Welcome to my Homepage!"
 
 # Site Author info
 ##################################################
