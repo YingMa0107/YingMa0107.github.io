@@ -22,9 +22,9 @@ description              : "Welcome!"
 ##################################################
 author:
   name             : "Ying Ma"
-  avatar           : "/assets/images/headshot.png"
+  avatar           : "/assets/images/headshot.JPG"
   bio              : "My very short description"
-  location: "Somewhere"
+  #location: "Somewhere"
   #links that appear in the authors navigation sidebar
   links:
     - label: "Email"
