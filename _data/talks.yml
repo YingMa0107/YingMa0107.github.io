@@ -1,0 +1,27 @@
+# The url_or_doi and file are optional
+
+- title: "Talk #1"
+  date: "2020"
+  where: Conference X
+  description:
+    This is the description of the talk I gave
+  authors: Author 1, Author 2
+  url_or_doi: "https://www.youtube.com/"
+  file: f1.pdf
+
+- title: "Talk #2"
+  date: "2019"
+  where: Conference Y
+  description:
+    This is the description of the talk I gave
+  authors: Author 1, Author 2
+  url_or_doi: "https://www.youtube.com/"
+  file: f1.pdf
+
+  # Example without url or doi, file
+- title: "Talk #3"
+  date: "2018"
+  where: Conference Z
+  description:
+    This is the description of the talk I gave
+

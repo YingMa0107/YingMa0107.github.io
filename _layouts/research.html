@@ -1,0 +1,19 @@
+---
+layout: single
+---
+
+{{ content }}
+
+{% if site.data.research %}
+    {% for project in site.data.research %}
+        {% if project.url_or_doi %}
+            <h3><em><a href="{{ project.url_or_doi }}">{{ project.title }}</a></em></h3>
+        {% else %}
+            <h3>{{ project.title }}</h3>
+        {% endif %}
+        <p>{{ project.description }}
+        {% if project.investigators %}
+            <br /><em>Investigator(s)</em>: {{ project.investigators }}</p>
+        {% endif %}
+    {% endfor %}
+{% endif %}
