@@ -22,25 +22,25 @@ I am a Ph.D. candidate in the Department of Biostatistics at the University of M
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="carousel-item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/assests/images/bio-photo.png" class="d-block w-100" alt="A1" />
+            <img src="https://github.com/YingMa0107/YingMa0107.github.io/assests/images/bio-photo.png" class="d-block w-100" alt="A1" />
         </div>
         <div class="carousel-item">
-            <img src="{{ site.url }}{{ site.baseurl }}/assests/images/bio-photo.png" class="d-block w-100" alt="A2" />
+            <img src="https://github.com/YingMa0107/YingMa0107.github.io/assests/images/bio-photo.png" class="d-block w-100" alt="A2" />
         </div>
         <div class="carousel-item">
-            <img src="{{ site.url }}{{ site.baseurl }}/assests/images/bio-photo.png" class="d-block w-100" alt="A3" />
+            <img src="https://github.com/YingMa0107/YingMa0107.github.io/assests/images/bio-photo.png" class="d-block w-100" alt="A3" />
         </div>
         <div class="carousel-item">
-            <img src="{{ site.url }}{{ site.baseurl }}/assests/images/bio-photo.png" class="d-block w-100" alt="A4" />
+            <img src="https://github.com/YingMa0107/YingMa0107.github.io/assests/images/bio-photo.png" class="d-block w-100" alt="A4" />
         </div>
         <div class="carousel-item">
-            <img src="{{ site.url }}{{ site.baseurl }}/assests/images/bio-photo.png" class="d-block w-100" alt="A5" />
+            <img src="https://github.com/YingMa0107/YingMa0107.github.io/assests/images/bio-photo.png" class="d-block w-100" alt="A5" />
         </div>
         <div class="carousel-item">
-            <img src="{{ site.url }}{{ site.baseurl }}/assests/images/bio-photo.png" class="d-block w-100" alt="A6" />
+            <img src="https://github.com/YingMa0107/YingMa0107.github.io/assests/images/bio-photo.png" class="d-block w-100" alt="A6" />
         </div>
         <div class="carousel-item">
-            <img src="{{ site.url }}{{ site.baseurl }}/assests/images/bio-photo.png" class="d-block w-100" alt="A7" />
+            <img src="https://github.com/YingMa0107/YingMa0107.github.io/assests/images/bio-photo.png" class="d-block w-100" alt="A7" />
         </div>
     </div>
   <a class="carousel-control-prev" data-target="#carousel" role="button" data-slide="prev">
