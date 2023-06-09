@@ -38,6 +38,9 @@
 <loc>/</loc>
 </url>
 <url>
+<loc>/news/</loc>
+</url>
+<url>
 <loc>/posts-by-year/</loc>
 </url>
 <url>
@@ -173,10 +176,6 @@
 <url>
 <loc>/_includes/masthead.html</loc>
 <lastmod>2023-06-08T15:59:51-04:00</lastmod>
-</url>
-<url>
-<loc>/_includes/news-card.html</loc>
-<lastmod>2023-06-09T11:08:48-04:00</lastmod>
 </url>
 <url>
 <loc>/_includes/news-card_cp.html</loc>
