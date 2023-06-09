@@ -29,6 +29,9 @@
 <lastmod>2019-04-18T15:34:30-04:00</lastmod>
 </url>
 <url>
+<loc>/_pages/Allnews/</loc>
+</url>
+<url>
 <loc>/blog/</loc>
 </url>
 <url>
@@ -175,8 +178,8 @@
 <lastmod>2023-06-08T15:59:51-04:00</lastmod>
 </url>
 <url>
-<loc>/_includes/news-card_cp.html</loc>
-<lastmod>2023-06-09T11:48:26-04:00</lastmod>
+<loc>/_includes/news-card.html</loc>
+<lastmod>2023-06-09T12:07:22-04:00</lastmod>
 </url>
 <url>
 <loc>/_includes/page__date.html</loc>
