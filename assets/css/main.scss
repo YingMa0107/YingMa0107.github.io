@@ -19,34 +19,40 @@
 
 /* News */
 .news-card {
-    float: right;
-    width: 300px;
-    margin-left: 20px;
-  }
-  
-  .news-card h2 {
-    font-size: 1.5rem;
-  }
-  
-  .news-card ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .news-card li {
-    margin-bottom: 10px;
-  }
-  
-  .news-card a {
-    text-decoration: none;
-    color: #000;
-  }
-  
-  .news-card span {
-    color: #888;
-    font-size: 0.9rem;
-  }
+  float: right;
+  width: 300px;
+  margin-left: 20px;
+  background-color: #e0e0de;  /* Set the background color */
+  color: #333333;  /* Set the text color */
+  padding: 10px;  /* Add padding to the card */
+  border-radius: 5px;  /* Add rounded corners to the card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Add a subtle box shadow */
+}
+
+.news-card h2 {
+  font-size: 1.5rem;
+  color: #555555;  /* Customize the heading color */
+}
+
+.news-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-card li {
+  margin-bottom: 10px;
+}
+
+.news-card a {
+  text-decoration: none;
+  color: #000000;  /* Customize the link color */
+}
+
+.news-card span {
+  color: #888888;  /* Customize the metadata color */
+}
+
   
 
 
