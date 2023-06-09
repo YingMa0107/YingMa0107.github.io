@@ -2,12 +2,13 @@
 <ul>
     {% for post in site.posts limit:10 %}
     <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <p>{{ post.excerpt }}</p>
+        <div class="news-card">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <p>{{ post.excerpt }}</p>
+        </div>
     </li>
     {% endfor %}
-    <li>
-        <a href="/Allnews.html">See all news</a>
-    </li>
 </ul>
+<a class="news-card" href="/Allnews.html">See all news</a>
+
 
