@@ -1,6 +1,13 @@
 <div class="sidebar-right">
-  <h2>News</h2>
-  {% include news-card.html %}
-  <a href="/Allnews.html">See all news</a>
+  <div class="news-card">
+    <ul>
+      {% for post in site.posts limit:10 %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+      <li>
+      </li>
+    </ul>
+  </div>
 </div>
-

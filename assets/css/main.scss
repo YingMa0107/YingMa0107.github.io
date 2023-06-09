@@ -17,6 +17,17 @@
     margin-right: 30px;
 }
 
+.sidebar-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 20%; /* adjust as needed */
+  height: 100vh; /* make it span the full height of the viewport */
+  padding: 20px;
+  overflow: auto; /* enable scrolling if content overflows */
+}
+
+
 /* News */
 .news-card {
   float: right;
@@ -52,19 +63,4 @@
 .news-card span {
   color: #888888;  /* Customize the metadata color */
 }
-
-// /* side bar of News */
-// .sidebar-right {
-//   position: fixed;
-//   top: 0;
-//   right: 0;
-//   width: 25%; /* adjust as needed */
-//   height: 100vh; /* make it span the full height of the viewport */
-//   padding: 20px;
-//   overflow: auto; /* enable scrolling if content overflows */
-// }
-
-// // .initial-content {
-// //   margin-right: 20%;
-// // }
 
