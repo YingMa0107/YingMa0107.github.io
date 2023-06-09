@@ -21,3 +21,4 @@ I am a Ph.D. candidate in the Department of Biostatistics at the University of M
 
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
 {% include carousel.html height="50" unit="%" duration="7" number="2" %}
+{% include news-card_cp.html %}
