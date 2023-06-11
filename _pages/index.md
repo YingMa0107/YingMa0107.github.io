@@ -2,7 +2,7 @@
 layout: home
 author_profile: true
 permalink: /
-title: Welcome!
+title: Welcome! The website is still under construction.
 carousels:
 - images: 
     - image: /assets/images/bio-photo.png
