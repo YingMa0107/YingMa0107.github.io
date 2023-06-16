@@ -18,10 +18,10 @@
 }
 
 .sidebar-right {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
-  width: 20%; /* adjust as needed */
+  //width: 20%; /* adjust as needed */
   height: 100vh; /* make it span the full height of the viewport */
   padding: 20px;
   overflow: auto; /* enable scrolling if content overflows */
