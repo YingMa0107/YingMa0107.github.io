@@ -49,20 +49,20 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Add a subtle box shadow */
   
   /* Adjust for screen size */
-  @media (min-width: 1200px) {
+  @media (min-width: 1500px) {
+    right: 200px;
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1300px) {
     right: 100px;
   }
   
-  @media (min-width: 992px) and (max-width: 1199px) {
-    right: 80px;
-  }
-  
-  @media (min-width: 768px) and (max-width: 991px) {
-    right: 60px;
+  @media (min-width: 900px) and (max-width: 110px) {
+    right: 50px;
   }
   
   /* Hide when the screen is too small */
-  @media (max-width: 767px) {
+  @media (max-width: 885px) {
     display: none;
   }
 }
