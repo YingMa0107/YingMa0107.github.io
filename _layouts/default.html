@@ -37,7 +37,9 @@
       </div>
     {% endif %}
     
-    {% include right_sidebar.html %}
+    {% if page.url == "/" or page.url == "/index.html" %}
+      {% include right_sidebar.html %}
+      {% endif %}
 
     <div id="footer" class="page__footer">
       <footer>
