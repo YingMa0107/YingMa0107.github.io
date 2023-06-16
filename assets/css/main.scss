@@ -30,9 +30,9 @@
 
 /* News */
 .news-card {
-  float: right;
-  top: 50;
-  right: 50;
+  position:absolute
+  top: 50px;
+  right: 50px;
   width: 400px;
   margin-left: 20px;
   background-color: #e0e0de;  /* Set the background color */
