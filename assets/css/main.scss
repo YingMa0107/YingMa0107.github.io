@@ -20,8 +20,8 @@
 .sidebar-right {
   position: fixed;
   top: 0;
-  right: 50px;
-  width: 40%; /* adjust as needed */
+  right: 0;
+  width: 20%; /* adjust as needed */
   height: 100vh; /* make it span the full height of the viewport */
   padding: 20px;
   overflow: auto; /* enable scrolling if content overflows */
@@ -31,7 +31,8 @@
 /* News */
 .news-card {
   float: right;
-  width: 300px;
+  right: 10;
+  width: 350px;
   margin-left: 20px;
   background-color: #e0e0de;  /* Set the background color */
   color: #333333;  /* Set the text color */
