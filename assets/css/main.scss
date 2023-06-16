@@ -30,11 +30,10 @@
 
 /* News */
 .news-card {
-  position:absolute;
-  top: 50px;
-  right: 50px;
-  width: 400px;
-  margin-left: 20px;
+  position: fixed;
+  top: 300px;
+  right: 100px;
+  width: 300px;
   background-color: #e0e0de;  /* Set the background color */
   color: #333333;  /* Set the text color */
   padding: 10px;  /* Add padding to the card */
