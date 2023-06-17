@@ -32,5 +32,5 @@ Research Interests
 {% include carousel.html height="50" unit="%" duration="7" number="2" %}
 
 News
-------
+======
 {% include news-card.html %}
