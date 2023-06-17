@@ -26,16 +26,6 @@
     {% include_cached skip-links.html %}
     {% include_cached browser-upgrade.html %}
     {% include_cached masthead.html %}
-    <style>
-    .news-card {
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 300px; /* Adjust the width as needed */
-        /* Add any other necessary styles */
-    }
-    </style>
-
     <div class="initial-content" style="max-width: 1500px;">
       {{ content }}
     </div>
@@ -45,22 +35,12 @@
         {% include_cached search/search_form.html %}
       </div>
     {% endif %}
-    
-    {% if page.url == "/" or page.url == "/index.html" %}
-      {% include right_sidebar.html %}
-      {% endif %}
-
     <div id="footer" class="page__footer">
       <footer>
         {% include footer/custom.html %}
         {% include_cached footer.html %}
       </footer>
     </div>
-
-    <div id="newsid" class="col-sm-5 col-xs-12 news-card">
-      <!-- News card content -->
-    </div>
-
     {% include scripts.html %}
 
   </body>
