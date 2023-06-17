@@ -1,0 +1,18 @@
+# The investigators and url are optional
+
+- title: "Research project #1"
+  description:
+    This is the description of my research project
+  investigators: Investigator 1, Investigator 2
+  url_or_doi: "https://www.researchgate.net/"
+
+- title: "Research project #2"
+  description:
+    This is the description of my research project
+  investigators: Investigator 1, Investigator 2
+  url_or_doi: "https://www.researchgate.net/"
+
+# Example without investigators, url
+- title: "Research project #3"
+  description:
+    This is the description of my research project

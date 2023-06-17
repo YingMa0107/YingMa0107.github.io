@@ -1,0 +1,23 @@
+---
+layout: single
+---
+
+{{ content}}
+
+{% if site.data.publications %}
+    {% for pub in site.data.publications %}
+        {% if pub.url_or_doi %}
+            <h3><em><a href="{{ pub.url_or_doi }}">{{ pub.title }}</a></em></h3>
+        {% else %}
+            <h3>{{ pub.title }}</h3>
+        {% endif %}
+        <p>Published in {{ pub.where }}, {{ pub.date }}</p>
+        <p>{{ pub.description }}</p>
+        {% if pub.authors %}
+            <p>{{ pub.authors }}</p>
+        {% endif %}
+        {% if pub.file %}
+            <a href="{{ site.url }}{{ site.baseurl }}/downloads/{{ pub.file }}">Download file</a>
+        {% endif %}
+    {% endfor %}
+{% endif %}

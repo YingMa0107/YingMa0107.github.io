@@ -1,46 +1,15 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-/*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
+@charset "utf-8";
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
-@import "variables";
-@import "mixins";
-@import "vendor/susy/susy";
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin2 | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
 
-@import "reset";
-@import "base";
-
-@import "utilities";
-@import "animations";
-@import "tables";
-@import "buttons";
-@import "notices";
-@import "masthead";
-@import "navigation";
-@import "footer";
-@import "syntax";
-
-@import "forms";
-
-@import "page";
-@import "archive";
-@import "sidebar";
-
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
-@import "vendor/magnific-popup/magnific-popup";
-@import "print";
 
 /* Carusel */
+
 .carousel {
     border-radius: 3px 3px 3px 3px;
     margin-bottom: 20px;
@@ -49,3 +18,46 @@
     margin-right: 30px;
 }
 
+
+// html {
+//     font-size: 12px; // change to whatever
+  
+//     @include breakpoint($medium) {
+//       font-size: 14px; // change to whatever
+//     }
+  
+//     @include breakpoint($large) {
+//       font-size: 16px; // change to whatever
+//     }
+  
+//     @include breakpoint($x-large) {
+//       font-size: 18px; // change to whatever
+//     }
+//   }
+
+
+// @media (min-width: 80em) {
+
+// .author__avatar {
+//   display: table-cell;
+//   vertical-align: top;
+//   width: 80px;
+//   height: 80px;
+
+//   @include breakpoint($large) {
+//     display: block;
+//     width: auto;
+//     height: auto;
+//   }
+
+//   img {
+//     max-width: 175px;
+//     border-radius: 50%;
+
+//     @include breakpoint($large) {
+//       padding: 5px;
+//       border: 1px solid $border-color;
+//     }
+//   }
+// }
+// }
