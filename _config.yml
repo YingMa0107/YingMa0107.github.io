@@ -8,10 +8,9 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Ying Ma's Personal Website"
-subtitle                 : # site tagline that appears below site title in masthead
 title_separator          : "-"
-name                     : "Ying Ma's Personal Website"
-description              : "Welcome to my Homepage!"
+name                     : "Ying Ma"
+description              : "Ph.D. Biostatistics"
 url                      : https://YingMa0107.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "YingMa0107/YingMa0107.github.io"
@@ -82,30 +81,42 @@ analytics:
 
 # Site Author
 author:
-  name             : "       Ying Ma"
+  name             : "Ying Ma"
   avatar           : "/assets/images/headshot.JPG"
   bio              : "Ph.D. Biostatistics"
-  #location: "Somewhere"
-  #links that appear in the authors navigation sidebar
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square fa-lg"
-      url: "mailto:yingma@umich.edu"
-    - label: "ResearchGate"
-      icon: "fab fa-researchgate fa-lg"
-      url: "https://www.researchgate.net/profile/Ying-Ma-26"
-    - label: "Google Scholar"
-      icon: "ai ai-google-scholar-square"
-      url: "https://scholar.google.com/citations?user=SaJWms0AAAAJ&hl=en"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin fa-lg"
-      url: "https://www.linkedin.com/in/ying-ma-a74106148/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square fa-lg"
-      url: "https://twitter.com/yingma0107"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github fa-lg"
-      url: "https://github.com/YingMa0107"
+  #location         : "Location"
+  #employer         :
+  #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "https://scholar.google.com/citations?user=SaJWms0AAAAJ&hl=en"
+  email            :
+  researchgate     : "https://www.researchgate.net/profile/Ying-Ma-26"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "https://github.com/YingMa0107"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  linkedin         : "https://www.linkedin.com/in/ying-ma-a74106148/"
+  orcid            : "http://orcid.org/yourorcidurl"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : "https://twitter.com/yingma0107"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+
 
 # Reading Files
 include:
