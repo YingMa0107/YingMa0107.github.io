@@ -19,7 +19,7 @@
 <!-- Favicon Links End -->
 
 <!-- begin _includes/seo.html --><title>Welcome! The website is still under construction. - Ying Ma’s Personal Website</title>
-<meta name="description" content="Welcome to my Homepage!">
+<meta name="description" content="personal description">
 
 
   <meta name="author" content="       Ying Ma">
@@ -29,13 +29,10 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Ying Ma's Personal Website">
 <meta property="og:title" content="Welcome! The website is still under construction.">
-<meta property="og:url" content="/">
+<meta property="og:url" content="https://academicpages.github.io/">
 
 
-  <meta property="og:description" content="Welcome to my Homepage!">
-
-
-
+  <meta property="og:description" content="personal description">
 
 
 
@@ -44,12 +41,15 @@
 
 
 
-  
+
+
 
   
 
+  
 
-<link rel="canonical" href="/">
+
+<link rel="canonical" href="https://academicpages.github.io/">
 
 
 
@@ -59,8 +59,8 @@
     "@context": "https://schema.org",
     
       "@type": "Person",
-      "name": "Ying Ma's Personal Website",
-      "url": "/"
+      "name": "Ying Ma",
+      "url": "https://academicpages.github.io/"
     
   }
 </script>
@@ -82,7 +82,7 @@
 
 
 <!-- begin _includes/seo.html --><title>Welcome! The website is still under construction. - Ying Ma’s Personal Website</title>
-<meta name="description" content="Welcome to my Homepage!">
+<meta name="description" content="personal description">
 
 
   <meta name="author" content="       Ying Ma">
@@ -92,13 +92,10 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Ying Ma's Personal Website">
 <meta property="og:title" content="Welcome! The website is still under construction.">
-<meta property="og:url" content="/">
+<meta property="og:url" content="https://academicpages.github.io/">
 
 
-  <meta property="og:description" content="Welcome to my Homepage!">
-
-
-
+  <meta property="og:description" content="personal description">
 
 
 
@@ -107,12 +104,15 @@
 
 
 
-  
+
+
 
   
 
+  
 
-<link rel="canonical" href="/">
+
+<link rel="canonical" href="https://academicpages.github.io/">
 
 
 
@@ -122,8 +122,8 @@
     "@context": "https://schema.org",
     
       "@type": "Person",
-      "name": "Ying Ma's Personal Website",
-      "url": "/"
+      "name": "Ying Ma",
+      "url": "https://academicpages.github.io/"
     
   }
 </script>
@@ -235,21 +235,6 @@
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css" id="theme_source">
 
-<link rel="stylesheet alternate" href="/assets/css/theme2.css" id="theme_source_2">
-<script>
-  let theme = sessionStorage.getItem('theme');
-  if (theme === "dark") {
-    sessionStorage.setItem('theme', 'dark');
-    node1 = document.getElementById('theme_source');
-    node2 = document.getElementById('theme_source_2');
-    node1.setAttribute('rel', 'stylesheet alternate');
-    node2.setAttribute('rel', 'stylesheet');
-  }
-  else {
-    sessionStorage.setItem('theme', 'light');
-  }
-</script>
-
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style"
   onload="this.onload=null;this.rel='stylesheet'">
 <noscript>
@@ -321,15 +306,6 @@
               <a href="/blog/">Blog</a>
             </li></ul>
         
-        <i class="fas fa-fw fa-adjust" aria-hidden="true" onclick="node1=document.getElementById('theme_source');node2=document.getElementById('theme_source_2');if(node1.getAttribute('rel')=='stylesheet'){node1.setAttribute('rel', 'stylesheet alternate'); node2.setAttribute('rel', 'stylesheet');sessionStorage.setItem('theme', 'dark');}else{node2.setAttribute('rel', 'stylesheet alternate'); node1.setAttribute('rel', 'stylesheet');sessionStorage.setItem('theme', 'light');} return false;"></i>
-        
-        
-        <button class="search__toggle" type="button">
-          <span class="visually-hidden">Toggle search</span>
-          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
-            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
-          </svg>
-        </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -351,7 +327,7 @@
     }
     </style>
 
-    <div class="initial-content">
+    <div class="initial-content" style="max-width: 900px;">
       
 
 
@@ -1352,7 +1328,7 @@ I am a Ph.D. candidate in the Department of Biostatistics at the University of M
 
 
 
-  2 minute read
+  3 minute read
 
 </p>
     
@@ -1382,7 +1358,7 @@ I am a Ph.D. candidate in the Department of Biostatistics at the University of M
 
 
 
-  4 minute read
+  5 minute read
 
 </p>
     
@@ -1429,17 +1405,6 @@ I am a Ph.D. candidate in the Department of Biostatistics at the University of M
 </div>
     </div>
 
-    
-      <div class="search-content">
-        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
-    <label class="sr-only" for="search">
-      Enter your search term...
-    </label>
-    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
-  </form>
-  <div id="results" class="results"></div></div>
-
-      </div>
     
     
     
@@ -1506,26 +1471,12 @@ I am a Ph.D. candidate in the Department of Biostatistics at the University of M
     
 
     
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
 
     <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2023 Ying Ma's Personal Website. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2023 Ying Ma. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
@@ -1540,10 +1491,6 @@ I am a Ph.D. candidate in the Department of Biostatistics at the University of M
 
 
 
-
-<script src="/assets/js/lunr/lunr.min.js"></script>
-<script src="/assets/js/lunr/lunr-store.js"></script>
-<script src="/assets/js/lunr/lunr-en.js"></script>
 
 
 
