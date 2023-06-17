@@ -26,6 +26,15 @@
     {% include_cached skip-links.html %}
     {% include_cached browser-upgrade.html %}
     {% include_cached masthead.html %}
+    <style>
+    .news-card {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 300px; /* Adjust the width as needed */
+        /* Add any other necessary styles */
+    }
+    </style>
 
     <div class="initial-content">
       {{ content }}
@@ -46,6 +55,10 @@
         {% include footer/custom.html %}
         {% include_cached footer.html %}
       </footer>
+    </div>
+
+    <div id="newsid" class="col-sm-5 col-xs-12 news-card">
+      <!-- News card content -->
     </div>
 
     {% include scripts.html %}
