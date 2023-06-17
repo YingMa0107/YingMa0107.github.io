@@ -98,6 +98,7 @@
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
+  font-size: 1.2rem;
 
   @include breakpoint($large) {
     display: block;
