@@ -82,7 +82,7 @@ analytics:
 # Site Author
 author:
   name             : "Ying Ma"
-  avatar           : "headshot.jpg"
+  avatar           : "images/headshot.jpg"
   bio              : "Ph.D. Biostatistics"
   #location         : "Location"
   #employer         :
@@ -104,7 +104,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/ying-ma-a74106148/"
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/my-orcid?orcid=0000-0003-3791-7018"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
