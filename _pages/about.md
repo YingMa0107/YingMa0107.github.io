@@ -31,7 +31,8 @@ Research Interests
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
 {% include carousel.html height="50" unit="%" duration="7" number="2" %}
 
-News
+<!-- News
 ======
 ------
-{% include news-card.html %}
+<!-- {% include news-card.html %} -->
+<!-- * Our paper was published on  --> 
