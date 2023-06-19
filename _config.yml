@@ -82,7 +82,7 @@ analytics:
 # Site Author
 author:
   name             : "Ying Ma"
-  avatar           : "assets/images/headshot.jpg"
+  avatar           : "images/headshot.jpg"
   bio              : "Ph.D. Biostatistics"
   #location         : "Location"
   #employer         :
