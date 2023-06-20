@@ -31,8 +31,14 @@ Research Interests
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
 {% include carousel.html height="50" unit="%" duration="7" number="2" %}
 
-<!-- News
+## :mega: News
 ======
 ------
-<!-- {% include news-card.html %} -->
-<!-- * Our paper was published on  --> 
+{% assign newsItems = site.data.news | limit:5 %}
+
+{% for news in newsItems %}
+- {{ news.date }}: {{ news.title }}
+{% endfor %}
+
+For more news, please visit the [News](/news) page.
+
