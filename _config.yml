@@ -13,7 +13,7 @@ name                     : "Ying Ma"
 description              : "Ph.D. Biostatistics"
 url                      : https://YingMa0107.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "YingMa0107/YingMa0107.github.io"
+repository               : "YingMa0107.github.io"
 github                   : [metadata] # Fixes warning about GitHub metadata
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -82,7 +82,7 @@ analytics:
 # Site Author
 author:
   name             : "Ying Ma"
-  avatar           : "images/headshot.jpg"
+  avatar           : "headshot.jpg"
   bio              : "Ph.D. Biostatistics"
   #location         : "Location"
   #employer         :
