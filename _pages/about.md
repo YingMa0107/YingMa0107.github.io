@@ -29,9 +29,8 @@ Research Interests
 6. Machine learning
 7. Data integration
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
-======
 ------
-## :mega: News
+## &#x1F4E3; News
 {% assign newsItems = site.data.news | limit:5 %}
 {% for news in newsItems %}
 - {{ news.date }}: {{ news.title }}
