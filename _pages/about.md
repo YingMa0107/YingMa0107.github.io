@@ -32,8 +32,7 @@ Research Interests
 {% include carousel.html height="50" unit="%" duration="7" number="2" %}
 
 ## :mega: News
-======
-------
+
 {% assign newsItems = site.data.news | limit:5 %}
 
 {% for news in newsItems %}
