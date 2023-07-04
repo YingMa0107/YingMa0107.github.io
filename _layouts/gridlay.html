@@ -1,5 +1,6 @@
 ---
 layout: default
+author_profile: true
 ---
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
@@ -47,7 +48,7 @@ layout: default
 
     <p>&nbsp;</p>
 
-    <h2>Full List of publications</h2>
+    <h2>List of publications</h2>
     {% for publi in site.data.publist %}
       <p>
         {{ publi.title }}<br>
