@@ -13,20 +13,48 @@ layout: default
 
 <style>
   .card {
-    box-shadow: 2px 2px 5px #888888 inset
+    box-shadow: 2px 2px 5px #888888 inset;
   }
 </style>
-<div id="gridid" class="col-sm-12">
-  {{ content }}
-</div>
 
 <div id="main" role="main">
-  {% include sidebar.html %}
-
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
-    {{ content }}
+    
+    <div class="row row-cols-1 row-cols-xl-2">
+      {% for publi in site.data.publist %}
+        {% if publi.highlight == 1 %}
+          <div class="col mb-4">
+            <div class="card h-100 d-flex flex-column justify-content-between bg-light">
+              <div class="card-body clearfix">
+                <h2 class="card-title">{{ publi.title }}</h2>
+                <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-fluid float-left w-33 d-inline-block" alt="{{ publi.title }}">
+                <p class="card-text">{{ publi.description }}</p>
+                <p class="card-text"><em>{{ publi.authors }}</em></p>
+                <p class="card-text text-danger"><strong>{{ publi.news1 }}</strong></p>
+                <p class="card-text">{{ publi.news2 }}</p>
+              </div>
+              <div class="card-footer px-0 mx-auto text-center w-100">
+                <p class="card-link text-nowrap"><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <p>&nbsp;</p>
+
+    <h2>Full List of publications</h2>
+    {% for publi in site.data.publist %}
+      <p>
+        {{ publi.title }}<br>
+        <em>{{ publi.authors }}</em><br>
+        <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+      </p>
+    {% endfor %}
+
   </div>
 </div>
