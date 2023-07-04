@@ -6,7 +6,15 @@ author_profile: true
 ---
 
 # Publications
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
 
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
 <div class="row row-cols-1 row-cols-xl-2">
 {% for publi in site.data.publist %}
 {% if publi.highlight == 1 %}
