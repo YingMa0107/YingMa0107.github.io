@@ -1,7 +1,22 @@
 ---
 layout: default
-author_profile: true
 ---
+
+<style>
+  .card {
+    box-shadow: 2px 2px 5px #888888 inset;
+  }
+  
+  .card-img-top {
+    max-height: 200px;
+    object-fit: contain;
+  }
+</style>
+
+<div id="gridid" class="col-sm-12">
+  {{ content }}
+</div>
+
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% endif %}
@@ -12,26 +27,20 @@ author_profile: true
   {% endunless %}
 {% endif %}
 
-<style>
-  .card {
-    box-shadow: 2px 2px 5px #888888 inset;
-  }
-</style>
-
 <div id="main" role="main">
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
     
-    <div class="row row-cols-1 row-cols-xl-2">
+    <div class="row row-cols-1 row-cols-md-2">
       {% for publi in site.data.publist %}
         {% if publi.highlight == 1 %}
           <div class="col mb-4">
             <div class="card h-100 d-flex flex-column justify-content-between bg-light">
+              <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="card-img-top" alt="{{ publi.title }}">
               <div class="card-body clearfix">
                 <h2 class="card-title">{{ publi.title }}</h2>
-                <img src="{{ site.url }}{{ site.baseurl }}/images/{{ publi.image }}" class="img-fluid float-left w-33 d-inline-block" alt="{{ publi.title }}">
                 <p class="card-text">{{ publi.description }}</p>
                 <p class="card-text"><em>{{ publi.authors }}</em></p>
                 <p class="card-text text-danger"><strong>{{ publi.news1 }}</strong></p>
