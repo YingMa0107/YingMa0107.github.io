@@ -45,7 +45,7 @@ We have openings for multiple positions, including Postdoctoral Fellow, and PhD 
 <div style="text-align:justify">
 {% assign newsItems = site.data.news | sort: 'date' | reverse %}
 {% for news in newsItems limit:5 %}
-<p>{{ news.date | date: "%Y-%m-%d" }}: <strong>{{ news.title | replace: ': ', ':&nbsp;' }}</strong></p>
+<p>{{ news.date | date: "%Y-%m-%d" }}: <strong>{{ news.title | replace: news.journal, '**' | replace: ': ', ':&nbsp;' | markdownify }}</strong></p>
 {% endfor %}
 </div>
 For more news, please visit the [News](/news/) page.
