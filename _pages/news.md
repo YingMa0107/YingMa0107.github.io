@@ -1,7 +1,8 @@
 ---
-layout: default
-title: News
-permalink: /
+layout: archive
+title: "News"
+permalink: /news/
+author_profile: true
 ---
 
 ## &#x1F4E3; News
