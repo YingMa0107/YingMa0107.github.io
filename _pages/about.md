@@ -42,10 +42,9 @@ We have openings for multiple positions, including Postdoctoral Fellow, and PhD 
 </p>
 ------
 ## &#x1F4E3; Latest News
-<div style="text-align:justify">
 {% assign newsItems = site.data.news | sort: 'date' | reverse | limit:5 %}
 {% for news in newsItems %}
-- {{ news.date }}: {{ news.title }}
+<p>{{ news.date | date: "%B %d, %Y" }}: {{ news.title }}</p>
 {% endfor %}
 For more news, please visit the [News](/news/) page.
-</div>
+
