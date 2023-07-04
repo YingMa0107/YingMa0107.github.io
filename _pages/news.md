@@ -8,6 +8,6 @@ author_profile: true
 
 {% assign newsItems = site.data.news %}
 {% for news in newsItems %}
-<p>{{ news.date | date: "%B %d, %Y" }}: {{ news.title }}</p>
+{{ news.date | date: "%B %d, %Y" }}: {{ news.title }}
 {% endfor %}
 
