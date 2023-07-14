@@ -15,6 +15,10 @@ author_profile: true
   margin-top: 20px;
   margin-left: 20px;
 }
+
+.text-justify {
+  text-align: justify;
+}
 </style>
 
 # Publications
@@ -35,7 +39,7 @@ author_profile: true
         <div class="col mb-4">
           <div class="card h-100 d-flex flex-column justify-content-between bg-light">
             <img src="{{ site.url }}{{ site.baseurl }}/images/{{ publi.image }}" class="card-img-top image-margin" alt="{{ publi.title }}">
-            <div class="card-body" style="text-align: justify;">
+            <div class="card-body text-justify">
               <h5 class="card-title">{{ publi.title }}</h5>
               <p class="card-text text-margin">{{ publi.description }}</p>
               <p class="card-text text-margin"><em>{{ publi.authors }}</em></p>
