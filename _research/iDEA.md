@@ -1,42 +1,42 @@
 ---
 title: "iDEA"
-excerpt: "A integrative Differential expression and gene set Enrichment Analysis method using summary statistics for scRNA-seq studies.<br/><img src='/images/iDEA_NC_2020_logo.png'>"
+excerpt: "A integrative Differential expression and gene set Enrichment Analysis method using summary statistics for scRNA-seq studies.<br/><img src='/images/iDEA_NC_2020_logo.png' width='100'>"
 collection: research
 ---
 
 # Background
 ------
 <p style="text-align: justify">
-In recent years, the advances of transcriptomics technologies have allowed us to perform gene expression profiling on many tissue locations with spatial localization information1, enabling the characterization of the transcriptomic landscape on complex tissues. However, most technologies, in particular the sequencing-based ones, are often of limited spatial resolution as they collect gene expression measurements on tissue locations that contain a mixture of cells belonging to potentially heterogeneous cell populations. Consequently, performing cell type deconvolution to obtain the cell type composition at each spatial location can help disentangle the spatial localization or colocalization of cell types and characterize the complex tissue architecture. In addition, constructing a high-resolution map for either cell type composition and gene expression beyond the spatial resolution obtainable using the existing technologies is also critically important for revealing the precise spatial distribution of cell types and accurate spatial expression pattern of genes. 
+Single-cell RNA sequencing (scRNA-seq) is becoming a standard technique for transcriptome profiling and is widely applied to many areas of genomics. Compared to the previous bulk RNAseq technique that measures the average gene expression of a potentially heterogeneous cell population, scRNA-seq is capable of producing gene expression measurements both at the genome-wide scale and at a single-cell resolution1. Because of the technical advantages, various scRNA-seq studies are being performed to reveal complex cellular heterogeneity in tissues, yielding important insights into many biological processes. However, due to the low amount of mRNAs available in a single cell and the low capture efficiency in the sequencing technique, scRNA-seq data are often extremely noisy2. Effective analysis of noisy scRNA-seq data requires development of powerful statistical tools. Here, we develop such a tool for two of the most commonly applied analysis in scRNA-seq studies: differential expression (DE) analysis and gene set enrichment (GSE) analysis.
 </p>
 
 
-# Overview
+# Overview of iDEA 
 ------
 <p style="text-align: justify">
-To achieve both cell type deconvolution and refined spatial map construction, we developed a deconvolution method, called conditional autoregressive-based deconvolution (CARD), that combines cell type–specific expression information from scRNA-seq with correlation in cell type composition across tissue locations (Figure 1). Specifically, CARD links the spatial transcriptomics data with the mean gene expression reference basis matrix that was constructed from scRNA-seq through a non-negative matrix factorization model. CARD also relies on a CAR modeling assumption to accommodate the spatial correlation structure in cell type compositions across locations. The key idea of modeling spatial correlation structure in cell type composition in the CARD modeling framework was inspired by previous biological literatures that similar cell types colocalized spatially in the tissue as cell types are segregated in a spatially correlated fashion into tissue domains during their development. Through modeling spatial correlation structure, CARD achieves accurate and robust cell type deconvolution even with mis-specified scRNAseq references and can also help construct a refined spatial map with arbitrarily high spatial resolutions for both cell type composition and gene expression  (Figure 1). In addition, and equally importantly, CARD can be extended to perform reference-free deconvolution, using only a list of marker gene names without a scRNA-seq reference, facilitating its wide application. All these features make CARD a unique and effective method that can help disentangle the spatial localization of cell types and facilitate comprehensive mapping of tissue architecture. More details of our work can be found in the paper 
+To increase the power of both DE and GSE analysis and ensure result reproducibility for scRNA-seq analysis, we developed a statistical method, which we refer to as the integrative Differential expression and gene set Enrichment Analysis (iDEA), that addresses the aforementioned shortcomings of previous methods for scRNA-seq data analysis. iDEA models all genes together by borrowing information across genes in terms of DE effect size distributional properties. iDEA also integrates DE analysis and GSE analysis into a joint statistical framework, providing substantial power gains for both analytic tasks. Importantly, iDEA makes use of summary statistics output from existing DE tools and does not make explicit modeling assumptions on the individual-level scRNA-seq data. Use of summary statistics not only allows iDEA to take advantage of various existing DE models for effective and flexible data modeling, but also ensures its scalable computation to large-scale scRNA-seq data sets. In addition, incorporating summary statistics from scRNA-seq DE analysis into GSE analysis under the framework of iDEA makes GSE analysis less susceptible to gene-gene correlations and other technical difficulties such as dropout events. We illustrate the benefits of iDEA with extensive simulations and applications to three scRNA-seq data.
 </p>
-<img align="top" src="/images/CARD_NBT_2022.jpg" alt="drawing" width="500"/>
+<img align="top" src="/images/iDEA_NC_2020.png" alt="drawing" width="100"/>
 
 
 # Paper:
 ------
-Spatially informed cell-type deconvolution for spatial transcriptomics
+Integrative differential expression and gene set enrichment analysis using summary statistics for scRNA-seq studies
 <br />
-[Paper Published in Nature Biotechnology](https://www.nature.com/articles/s41587-022-01273-7)
+[Paper Published in Nature Communications](https://www.nature.com/articles/s41467-020-15298-6)
 
-# Selected important results by CARD
+# Selected important results by iDEA
 ------
 <p style="text-align: justify">
-Analyzing the human pancreatic ductal adenocarcinoma (PDAC) data, CARD is abale to capture a gross regional segregation between cancer and non-cancer regions, between the ductal and stroma regions and between the pancreatic and ductal regions. CARD further divides the cancer region into two subregions, and localizes many other cell types into specific tissue regions, consistent with the expression pattern of the corresponding marker genes. Additionally, CARd also reveals the distinct distribution of two macrophage subpopulations between the cancer and non-cancer regions, representing a key functional signature of the regional compartmentalization of the cancer tissue that was missed by the other methods.
+Analyzing the human embryonic stem cell scRNA-seq data, iDEA produces calibrated p-values , identified more significantly enriched gene sets compared to the other GSE methods. Notably, besides the statistical power, many of the top gene sets identified by iDEA are closely related to embryonic developmen. Examples include the Wnt signaling pathway, the transforming growth factor beta (TGF-beta) receptor signaling pathway30, and relevant GO terms such as GO:0048514 (blood vessel morphogenesis), GO:0001944 (vasculature development) and GO:0007492 (endoderm development). Furthermore, iDEA identifies more DE genes than existing methods, while the top 50 selected important DE genes identified by iDEA clearly distinguishes the two examined cell types, DEC and EC cells.
 </p>
-<img align="top" src="/images/CARD_NBT_202_Figure4.png" alt="drawing" width="500"/>
+<img align="top" src="/images/iDEA_NC_2020_Figure4.png" alt="drawing" width="500"/>
 
 
-# Tutorial of CARD
+# Tutorial of iDEA
 ------
-We provided a tutorial for running CARD in details, with all kinds of visualization plots provided. 
-Package Website: [CARD Tutorial](https://yingma0107.github.io/CARD/)
+We provided a tutorial for running iDEA in details, with detailed interpretation of the results. 
+Package Website: [iDEA Tutorial](https://xzhoulab.github.io/iDEA/)
 
 
 
