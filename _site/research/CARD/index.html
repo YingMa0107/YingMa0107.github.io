@@ -27,7 +27,7 @@
 
 
 
-<title>Portfolio item number 1 - Ying Ma’s Personal Website</title>
+<title>CARD - Ying Ma’s Personal Website</title>
 
 
 
@@ -37,15 +37,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Ying Ma's Personal Website">
-<meta property="og:title" content="Portfolio item number 1">
+<meta property="og:title" content="CARD">
 
 
-  <link rel="canonical" href="https://YingMa0107.github.io/research/2015-spring-teaching-2/">
-  <meta property="og:url" content="https://YingMa0107.github.io/research/2015-spring-teaching-2/">
+  <link rel="canonical" href="https://YingMa0107.github.io/research/CARD/">
+  <meta property="og:url" content="https://YingMa0107.github.io/research/CARD/">
 
 
 
-  <meta property="og:description" content="Short description of portfolio item number 1">
+  <meta property="og:description" content="A spatially informed deconvolution method for spatially resolved transcriptomics.">
 
 
 
@@ -258,15 +258,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Portfolio item number 1">
-    <meta itemprop="description" content="Short description of portfolio item number 1">
+    <meta itemprop="headline" content="CARD">
+    <meta itemprop="description" content="A spatially informed deconvolution method for spatially resolved transcriptomics.">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Portfolio item number 1
+          <h1 class="page__title" itemprop="headline">CARD
 </h1>
           
         
@@ -280,7 +280,37 @@
       
 
       <section class="page__content" itemprop="text">
-        <p>This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML.</p>
+        <h1 id="background">Background</h1>
+<hr />
+<p style="text-align: justify">
+In recent years, the advances of transcriptomics technologies have allowed us to perform gene expression profiling on many tissue locations with spatial localization information1, enabling the characterization of the transcriptomic landscape on complex tissues. However, most technologies, in particular the sequencing-based ones, are often of limited spatial resolution as they collect gene expression measurements on tissue locations that contain a mixture of cells belonging to potentially heterogeneous cell populations. Consequently, performing cell type deconvolution to obtain the cell type composition at each spatial location can help disentangle the spatial localization or colocalization of cell types and characterize the complex tissue architecture. In addition, constructing a high-resolution map for either cell type composition and gene expression beyond the spatial resolution obtainable using the existing technologies is also critically important for revealing the precise spatial distribution of cell types and accurate spatial expression pattern of genes. 
+</p>
+
+<h1 id="overview">Overview</h1>
+<hr />
+<p style="text-align: justify">
+To achieve both cell type deconvolution and refined spatial map construction, we developed a deconvolution method, called conditional autoregressive-based deconvolution (CARD), that combines cell type–specific expression information from scRNA-seq with correlation in cell type composition across tissue locations (Figure 1). Specifically, CARD links the spatial transcriptomics data with the mean gene expression reference basis matrix that was constructed from scRNA-seq through a non-negative matrix factorization model. CARD also relies on a CAR modeling assumption to accommodate the spatial correlation structure in cell type compositions across locations. The key idea of modeling spatial correlation structure in cell type composition in the CARD modeling framework was inspired by previous biological literatures that similar cell types colocalized spatially in the tissue as cell types are segregated in a spatially correlated fashion into tissue domains during their development. Through modeling spatial correlation structure, CARD achieves accurate and robust cell type deconvolution even with mis-specified scRNAseq references and can also help construct a refined spatial map with arbitrarily high spatial resolutions for both cell type composition and gene expression  (Figure 1). In addition, and equally importantly, CARD can be extended to perform reference-free deconvolution, using only a list of marker gene names without a scRNA-seq reference, facilitating its wide application. All these features make CARD a unique and effective method that can help disentangle the spatial localization of cell types and facilitate comprehensive mapping of tissue architecture. More details of our work can be found in the paper 
+</p>
+<p><img align="top" src="/images/CARD_NBT_2022.jpg" alt="drawing" width="500" /></p>
+
+<h1 id="paper">Paper:</h1>
+<hr />
+<p>Spatially informed cell-type deconvolution for spatial transcriptomics
+<br />
+<a href="https://www.nature.com/articles/s41587-022-01273-7">Paper Published in Nature Biotechnology</a></p>
+
+<h1 id="selected-important-results-by-card">Selected important results by CARD</h1>
+<hr />
+<p style="text-align: justify">
+Analyzing the human pancreatic ductal adenocarcinoma (PDAC) data, CARD is abale to capture a gross regional segregation between cancer and non-cancer regions, between the ductal and stroma regions and between the pancreatic and ductal regions. CARD further divides the cancer region into two subregions, and localizes many other cell types into specific tissue regions, consistent with the expression pattern of the corresponding marker genes. Additionally, CARd also reveals the distinct distribution of two macrophage subpopulations between the cancer and non-cancer regions, representing a key functional signature of the regional compartmentalization of the cancer tissue that was missed by the other methods.
+</p>
+<p><img align="top" src="/images/CARD_NBT_202_Figure4.png" alt="drawing" width="500" /></p>
+
+<h1 id="tutorial-of-card">Tutorial of CARD</h1>
+<hr />
+<p>We provided a tutorial for running CARD in details, with all kinds of visualization plots provided. 
+Package Website: <a href="https://yingma0107.github.io/CARD/">CARD Tutorial</a></p>
+
 
         
       </section>
@@ -301,11 +331,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=https://YingMa0107.github.io/research/2015-spring-teaching-2/" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=https://YingMa0107.github.io/research/CARD/" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https://YingMa0107.github.io/research/2015-spring-teaching-2/" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://YingMa0107.github.io/research/CARD/" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://YingMa0107.github.io/research/2015-spring-teaching-2/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://YingMa0107.github.io/research/CARD/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -313,11 +343,11 @@
 
   <nav class="pagination">
     
-      <a href="https://YingMa0107.github.io/research/2014-spring-teaching-1/" class="pagination--pager" title="Portfolio item number 1
-">Previous</a>
+      <a href="#" class="pagination--pager disabled">Previous</a>
     
     
-      <a href="#" class="pagination--pager disabled">Next</a>
+      <a href="https://YingMa0107.github.io/research/DR/" class="pagination--pager" title="Portfolio item number 1
+">Next</a>
     
   </nav>
 
