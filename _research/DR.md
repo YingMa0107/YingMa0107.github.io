@@ -2,7 +2,6 @@
 title: "Dimension Reduction"
 excerpt: "Guidelines on choosing Dimensionality reduction (DR) methods for scRNA-seq studies.<br/><img src='/images/DR_GB_2019_logo.jpeg' width='200'>"
 collection: research
-date: 2029-10-01
 order: 4
 ---
 
