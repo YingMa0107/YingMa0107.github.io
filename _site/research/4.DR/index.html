@@ -27,7 +27,7 @@
 
 
 
-<title>ExPRS - Ying Ma’s Personal Website</title>
+<title>Dimension Reduction - Ying Ma’s Personal Website</title>
 
 
 
@@ -37,15 +37,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Ying Ma's Personal Website">
-<meta property="og:title" content="ExPRS">
+<meta property="og:title" content="Dimension Reduction">
 
 
-  <link rel="canonical" href="https://YingMa0107.github.io/research/ExPRS/">
-  <meta property="og:url" content="https://YingMa0107.github.io/research/ExPRS/">
+  <link rel="canonical" href="https://YingMa0107.github.io/research/4.DR/">
+  <meta property="og:url" content="https://YingMa0107.github.io/research/4.DR/">
 
 
 
-  <meta property="og:description" content="Exposure polygenic risk scores (ExPRSs) analysis for common health-related exposures in two large biobanks ">
+  <meta property="og:description" content="Guidelines on choosing Dimensionality reduction (DR) methods for scRNA-seq studies.">
 
 
 
@@ -258,15 +258,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="ExPRS">
-    <meta itemprop="description" content="Exposure polygenic risk scores (ExPRSs) analysis for common health-related exposures in two large biobanks ">
+    <meta itemprop="headline" content="Dimension Reduction">
+    <meta itemprop="description" content="Guidelines on choosing Dimensionality reduction (DR) methods for scRNA-seq studies.">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">ExPRS
+          <h1 class="page__title" itemprop="headline">Dimension Reduction
 </h1>
           
         
@@ -283,40 +283,31 @@
         <h1 id="background">Background</h1>
 <hr />
 <p style="text-align: justify">
-Complex traits are influenced by genetic risk factors, lifestyle, and environmental variables, so-called exposures. Some exposures, e.g., smoking or lipid levels, have common genetic modifiers identified in genome-wide association studies. These exposures an impact disease risks. For example, high body mass index, smoking, blood lipid levels, and pre-existing type 2 diabetes (T2D) were recognized as prominent risk factors for cardiovascular disease,8 respiratory diseases,9 and cancers.10,11 Given the relevance for these often modifiable risk factors for morbidity and mortality, exposure information is pivotal for precision prevention.10 However, data on even common exposures are not always available, especially when using electronic health records (EHRs). Furthermore, data can be prone to measurement error, bias, and non-random missingness.12,13 Yet, some exposures have a heritable component identifiable through GWASs14,15 and thus offer the opportunity to construct exposure PRSs (ExPRSs).
+Single-cell RNA sequencing (scRNA-seq) is a rapidly growing and widely applying technology. By measuring gene expression at a single-cell level, scRNA-seq provides an unprecedented opportunity to investigate the cellular heterogeneity of complex tissues. However, despite the popularity of scRNA-seq, analyzing scRNA-seq data remains a challenging task. Specifically, due to the low capture efficiency and low sequencing depth per cell in scRNA-seq data, gene expression measurements obtained from scRNA-seq are noisy: collected scRNA-seq gene measurements are often in the form of low expression counts, and in studies not based on unique molecular identifiers, are also paired with an excessive number of zeros known as dropouts. Subsequently, dimensionality reduction methods that transform the original high-dimensional noisy expression matrix into a low-dimensional subspace with enriched signals become an important data processing step for scRNA-seq analysis. Proper dimensionality reduction can allow for effective noise removal, facilitate data visualization, and enable efficient and effective downstream analysis of scRNA-seq. Dimensionality reduction is indispensable for many types of scRNA-seq analysis. Unfortunately, despite the critical importance of DR in scRNAseq analysis and the vast number of DR methods developed for scRNAseq studies, however, few comprehensive comparison studies have been performed to evaluate the effectiveness of different DR methods in scRNAseq.
 </p>
 
 <h1 id="overview-of-our-study">Overview of our study</h1>
 <hr />
 <p style="text-align: justify">
-By using available exposure GWAS summary statistics and two large biobanks, the Michigan Genomics Initiative (MGI) and the UK Biobank (UKB), we generated ExPRSs with four methods varying in complexity and modeling (i.e., linkage disequilibrium clumping and p value thresholding [C + T], Lassosum, deterministic Bayesian sparse linear mixed model [DBSLMM], and PRS-CS, a Bayesian method with continuous shrinkage priors).We also highlight ExPRS applications including PheWAS, risk stratification, and prediction of common chronic conditions. For the latter, we evaluated the predictive performance of single and multiple ExPRSs when combined with disease-specific PRSs and could show substantial improvement for several traits. We also contrasted these predictors with “poly-exposure risk scores” (PXSs), which integrate multiple measured exposures. In absence of high-quality exposure data on many individuals, ExPRSs can serve as surrogates if one has genotype data on a larger and more representative sample. Our repository ExPRSweb unlocks access to over 300 ExPRSs for 27 different exposures and facilitates scientific collaboration to strengthen their future application.
+Here, we aim to fill this critical knowledge gap by providing a comprehensive comparative evaluation of a variety of commonly used dimensionality reduction methods for scRNA-seq studies. Specifically, we compared 18 different dimensionality reduction methods on 30 publicly available scRNA-seq data sets that cover a range of sequencing techniques and sample sizes. We evaluated the performance of different dimensionality reduction methods for neighborhood preserving in terms of their ability to recover features of the original expression matrix, and for cell clustering and lineage reconstruction in terms of their accuracy and robustness using different metrics. We also evaluated the computational scalability of different dimensionality reduction methods by recording their computational time. Together, we hope our results can serve as an important guideline for practitioners to choose dimensionality reduction methods in the field of scRNA-seq analysis.
 </p>
 <div style="text-align: center;">
-  <img src="/images/ExPRSWeb_AJHG_2022.jpg" alt="drawing" width="500" />
+  <img src="/images/DR_GB_2019.png" alt="drawing" width="500" />
 </div>
 
 <h1 id="paper">Paper</h1>
 <hr />
-<p>ExPRSweb: An online repository with polygenic risk scores for common health-related exposures</p>
+<p>Accuracy, robustness and scalability of dimensionality reduction methods for single-cell RNA-seq analysis</p>
 
-<p><a href="https://www.cell.com/ajhg/fulltext/S0002-9297(22)00404-9">Paper Published in The American Journal of Human Genetics</a></p>
-
-<p>For previous papers related to the polygenic risk score research, please find more details in the following list:</p>
-
-<p><a href="https://www.cell.com/trends/genetics/fulltext/S0168-9525(21)00145-1">Paper Published in Trends in Genetics</a></p>
-
-<p><a href="https://www.cell.com/ajhg/pdf/S0002-9297(20)30320-7.pdf">Paper Published in The American Journal of Human Genetics</a></p>
-
-<p><a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009670">Paper Published in Plos Genetics</a></p>
+<p><a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1898-6">Paper Published in Genome Biology</a></p>
 
 <h1 id="selected-important-results">Selected important results</h1>
 <hr />
 <p style="text-align: justify">
-One application of ExPRSs is their use as predictors for phe- nome-wide association studies (PheWASs) to uncover phe- notypes with a shared genetic component and thus disorders that might benefit from an early intervention. We showcase such ExPRS PheWASs by analyzing all 24 selected ExPRSs across up to 1,685 EHR-derived phenotypes (PheCodes) in MGI. Here are the results showing PheWAS with the BMI ExPRS uncovered 329 associated phenotypes. To assess whether these associations were driven by exposed individuals, i.e., individuals affected by a binary exposure or by low or high exposure values, we also performed ‘‘exclusion-PRS-PheWAS’’ analyses where we excluded such exposed individuals to remove direct and in- direct associations of the exposure and potential treatment effects. For example, in the exclusion PheWAS with the BMI ExPRS, the associations with hypertension (OR: 1.17 [1.12, 1.23]) and T2D (OR: 1.18 [1.09, 1.27]) remained statistically significant. However, while the analysis of individuals with healthy BMI removed most of the obesity or overweight phenotypes, a strong association remained between BMI ExPRS and bariatric surgery (OR: 2.66 [2.08, 3.41]). A closer inspec- tion revealed that 73 of 1,509 MGI participants who under- went bariatric surgery had recorded median BMI values that fell in the healthy BMI range (18.5 &lt; BMI &lt; 25), indicating the BMI ExPRS’s ability to capture pre-treatment exposures. Most interestingly, the corresponding exclusion PheWAS with measured BMI as predictor revealed many association signals that were reversed compared to the exclusion-PRS- PheWAS. This finding might reflect biased measurements, e.g., due to treatment or interventions that result in normal BMI values, or the measured BMI’s inability to capture central obesity.
+ased on the comprehensive evaluation results, we provide important guidelines for choosing DR methods for scRNAseq data analysis. We also provide all analysis scripts used in the present study at [http://xzlab.org/reproduce.html](http://xzlab.org/reproduce.html).Together, we hope that our results will serve as an important practical reference for practitioners to choose DR methods in the field of scRNAseq analysis.
 </p>
-<div style="display: flex; justify-content: center;">
-  <img src="/images/ExPRSWeb_AJHG_2022_Figure4.jpg" alt="drawing" width="400" />
-  <img src="/images/ExPRSWeb_AJHG_2022_Figure5.jpg" alt="drawing" width="400" />
+<div style="text-align: center;">
+  <img src="/images/DR_GB_2019_Figure5.png" alt="drawing" width="500" />
 </div>
 
 
@@ -339,11 +330,11 @@ One application of ExPRSs is their use as predictors for phe- nome-wide associat
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=https://YingMa0107.github.io/research/ExPRS/" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=https://YingMa0107.github.io/research/4.DR/" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https://YingMa0107.github.io/research/ExPRS/" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://YingMa0107.github.io/research/4.DR/" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://YingMa0107.github.io/research/ExPRS/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://YingMa0107.github.io/research/4.DR/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -351,12 +342,11 @@ One application of ExPRSs is their use as predictors for phe- nome-wide associat
 
   <nav class="pagination">
     
-      <a href="https://YingMa0107.github.io/research/DR/" class="pagination--pager" title="Dimension Reduction
+      <a href="https://YingMa0107.github.io/research/3.ExPRS/" class="pagination--pager" title="ExPRS
 ">Previous</a>
     
     
-      <a href="https://YingMa0107.github.io/research/iDEA/" class="pagination--pager" title="iDEA
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
