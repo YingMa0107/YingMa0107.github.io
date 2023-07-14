@@ -24,7 +24,6 @@ To achieve both cell type deconvolution and refined spatial map construction, we
 # Paper
 ------
 Spatially informed cell-type deconvolution for spatial transcriptomics
-<br />
 [Paper Published in Nature Biotechnology](https://www.nature.com/articles/s41587-022-01273-7)
 
 # Selected important results by CARD
