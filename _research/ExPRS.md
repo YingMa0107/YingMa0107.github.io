@@ -2,6 +2,8 @@
 title: "ExPRS"
 excerpt: "Exposure polygenic risk scores (ExPRSs) analysis for common health-related exposures in two large biobanks <br/><img src='/images/ExPRSWeb_AJHG_2022_logo.jpg' width='200'>"
 collection: research
+date: 2022-09-03
+order: 3
 ---
 
 # Background

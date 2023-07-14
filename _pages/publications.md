@@ -12,7 +12,7 @@ author_profile: true
 }
 
 .text-margin {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 20px;
 }
 

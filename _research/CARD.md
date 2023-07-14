@@ -2,6 +2,8 @@
 title: "CARD"
 excerpt: "A spatially informed deconvolution method for spatially resolved transcriptomics.<br/><img src='/images/CARD_NBT_2022_logo.jpg' width='200'>"
 collection: research
+date: 2022-05-03
+order: 1
 ---
 
 ------
