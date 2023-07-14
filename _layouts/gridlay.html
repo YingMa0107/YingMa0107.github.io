@@ -10,6 +10,23 @@ layout: default
     max-height: 300px;
     object-fit: contain;
   }
+
+  .card-body {
+    margin: 20px;
+  }
+
+  .card-title {
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    margin-bottom: 5px;
+    text-align: justify;
+  }
+
+  .card-link {
+    margin-top: 10px;
+  }
 </style>
 
 <div id="main" role="main">
@@ -23,7 +40,7 @@ layout: default
         {% if publi.highlight == 1 %}
           <div class="col mb-4">
             <div class="card h-100 d-flex flex-column justify-content-between bg-light">
-              <div class="card-body clearfix">
+              <div class="card-body">
                 <h2 class="card-title">{{ publi.title }}</h2>
                 <img src="{{ site.url }}{{ site.baseurl }}/images/{{ publi.image }}" class="card-img-top" alt="{{ publi.title }}">
                 <p class="card-text">{{ publi.description }}</p>

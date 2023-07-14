@@ -181,6 +181,23 @@
     max-height: 300px;
     object-fit: contain;
   }
+
+  .card-body {
+    margin: 20px;
+  }
+
+  .card-title {
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    margin-bottom: 5px;
+    text-align: justify;
+  }
+
+  .card-link {
+    margin-top: 10px;
+  }
 </style>
 
 <div id="main" role="main">
@@ -198,7 +215,7 @@
         
           <div class="col mb-4">
             <div class="card h-100 d-flex flex-column justify-content-between bg-light">
-              <div class="card-body clearfix">
+              <div class="card-body">
                 <h2 class="card-title">Spatially informed cell type deconvolution for spatial transcriptomics</h2>
                 <img src="https://YingMa0107.github.io/images/CARD_NBT_2022.jpg" class="card-img-top" alt="Spatially informed cell type deconvolution for spatial transcriptomics">
                 <p class="card-text">Many spatially resolved transcriptomic technologies do not have single-cell resolution but measure the average gene expression for each spot from a mixture of cells of potentially heterogeneous cell types. Here, we introduce a deconvolution method, conditional autoregressive-based deconvolution (CARD), that combines cell-type-specific expression information from single-cell RNA sequencing (scRNA-seq) with correlation in cell-type composition across tissue locations. Modeling spatial correlation allows us to borrow the cell-type composition information across locations, improving accuracy of deconvolution even with a mismatched scRNA-seq reference. CARD can also impute cell-type compositions and gene expression levels at unmeasured tissue locations to enable the construction of a refined spatial tissue map with a resolution arbitrarily higher than that measured in the original study and can perform deconvolution without an scRNA-seq reference. Applications to four datasets, including a pancreatic cancer dataset, identified multiple cell types and molecular markers with distinct spatial localization that define the progression, heterogeneity and compartmentalization of pancreatic cancer.</p>
@@ -222,7 +239,7 @@
         
           <div class="col mb-4">
             <div class="card h-100 d-flex flex-column justify-content-between bg-light">
-              <div class="card-body clearfix">
+              <div class="card-body">
                 <h2 class="card-title">Integrative differential expression and gene set enrichment analysis using summary statistics for scRNA-seq studies</h2>
                 <img src="https://YingMa0107.github.io/images/iDEA_NC_2020.png" class="card-img-top" alt="Integrative differential expression and gene set enrichment analysis using summary statistics for scRNA-seq studies">
                 <p class="card-text">Differential expression (DE) analysis and gene set enrichment (GSE) analysis are commonly applied in single cell RNA sequencing (scRNA-seq) studies. Here, we develop an integrative and scalable computational method, iDEA, to perform joint DE and GSE analysis through a hierarchical Bayesian framework. By integrating DE and GSE analyses, iDEA can improve the power and consistency of DE analysis and the accuracy of GSE analysis. Importantly, iDEA uses only DE summary statistics as input, enabling effective data modeling through complementing and pairing with various existing DE methods. We illustrate the benefits of iDEA with extensive simulations. We also apply iDEA to analyze three scRNA-seq data sets, where iDEA achieves up to five-fold power gain over existing GSE methods and up to 64% power gain over existing DE methods</p>
@@ -240,7 +257,7 @@
         
           <div class="col mb-4">
             <div class="card h-100 d-flex flex-column justify-content-between bg-light">
-              <div class="card-body clearfix">
+              <div class="card-body">
                 <h2 class="card-title">Accuracy, robustness and scalability of dimensionality reduction methods for single-cell RNA-seq analysis</h2>
                 <img src="https://YingMa0107.github.io/images/DR_GB_2019.png" class="card-img-top" alt="Accuracy, robustness and scalability of dimensionality reduction methods for single-cell RNA-seq analysis">
                 <p class="card-text">Dimensionality reduction is an indispensable analytic component for many areas of single-cell RNA sequencing (scRNA-seq) data analysis. Proper dimensionality reduction can allow for effective noise removal and facilitate many downstream analyses that include cell clustering and lineage reconstruction. Unfortunately, despite the critical importance of dimensionality reduction in scRNA-seq analysis and the vast number of dimensionality reduction methods developed for scRNA-seq studies, few comprehensive comparison studies have been performed to evaluate the effectiveness of different dimensionality reduction methods in scRNA-seq. We aim to fill this critical knowledge gap by providing a comparative evaluation of a variety of commonly used dimensionality reduction methods for scRNA-seq studies. Specifically, we compare 18 different dimensionality reduction methods on 30 publicly available scRNA-seq datasets that cover a range of sequencing techniques and sample sizes. We evaluate the performance of different dimensionality reduction methods for neighborhood preserving in terms of their ability to recover features of the original expression matrix, and for cell clustering and lineage reconstruction in terms of their accuracy and robustness. We also evaluate the computational scalability of different dimensionality reduction methods by recording their computational cost. Based on the comprehensive evaluation results, we provide important guidelines for choosing dimensionality reduction methods for scRNA-seq data analysis.</p>
