@@ -3,6 +3,7 @@ title: "CARD"
 excerpt: "A spatially informed deconvolution method for spatially resolved transcriptomics.<br/><img src='/images/CARD_NBT_2022_logo.jpg' width='200'>"
 collection: research
 ---
+
 ------
 # Background
 ------
@@ -24,6 +25,7 @@ To achieve both cell type deconvolution and refined spatial map construction, we
 # Paper
 ------
 Spatially informed cell-type deconvolution for spatial transcriptomics
+
 [Paper Published in Nature Biotechnology](https://www.nature.com/articles/s41587-022-01273-7)
 
 # Selected important results by CARD

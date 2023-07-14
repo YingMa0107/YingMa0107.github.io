@@ -24,6 +24,7 @@ To increase the power of both DE and GSE analysis and ensure result reproducibil
 # Paper
 ------
 Integrative differential expression and gene set enrichment analysis using summary statistics for scRNA-seq studies
+
 [Paper Published in Nature Communications](https://www.nature.com/articles/s41467-020-15298-6)
 
 # Selected important results by iDEA
@@ -34,6 +35,7 @@ Analyzing the human embryonic stem cell scRNA-seq data, iDEA produces calibrated
 <div style="text-align: center;">
   <img src="/images/iDEA_NC_2020_Figure4.png" alt="drawing" width="500"/>
 </div>
+
 
 # Tutorial of iDEA
 ------

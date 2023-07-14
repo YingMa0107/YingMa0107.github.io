@@ -23,10 +23,15 @@ By using available exposure GWAS summary statistics and two large biobanks, the 
 # Paper
 ------
 ExPRSweb: An online repository with polygenic risk scores for common health-related exposures
+
 [Paper Published in The American Journal of Human Genetics](https://www.cell.com/ajhg/fulltext/S0002-9297(22)00404-9)
+
 For previous papers related to the polygenic risk score research, please find more details in the following list:
+
 [Paper Published in Trends in Genetics](https://www.cell.com/trends/genetics/fulltext/S0168-9525(21)00145-1)
+
 [Paper Published in The American Journal of Human Genetics](https://www.cell.com/ajhg/pdf/S0002-9297(20)30320-7.pdf)
+
 [Paper Published in Plos Genetics](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009670)
 
 # Selected important results

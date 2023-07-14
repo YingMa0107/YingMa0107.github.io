@@ -24,6 +24,7 @@ Here, we aim to fill this critical knowledge gap by providing a comprehensive co
 # Paper
 ------
 Accuracy, robustness and scalability of dimensionality reduction methods for single-cell RNA-seq analysis
+
 [Paper Published in Genome Biology](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1898-6)
 
 # Selected important results
