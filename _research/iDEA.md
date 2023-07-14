@@ -15,6 +15,7 @@ Single-cell RNA sequencing (scRNA-seq) is becoming a standard technique for tran
 ------
 <p style="text-align: justify">
 To increase the power of both DE and GSE analysis and ensure result reproducibility for scRNA-seq analysis, we developed a statistical method, which we refer to as the integrative Differential expression and gene set Enrichment Analysis (iDEA), that addresses the aforementioned shortcomings of previous methods for scRNA-seq data analysis. iDEA models all genes together by borrowing information across genes in terms of DE effect size distributional properties. iDEA also integrates DE analysis and GSE analysis into a joint statistical framework, providing substantial power gains for both analytic tasks. Importantly, iDEA makes use of summary statistics output from existing DE tools and does not make explicit modeling assumptions on the individual-level scRNA-seq data. Use of summary statistics not only allows iDEA to take advantage of various existing DE models for effective and flexible data modeling, but also ensures its scalable computation to large-scale scRNA-seq data sets. In addition, incorporating summary statistics from scRNA-seq DE analysis into GSE analysis under the framework of iDEA makes GSE analysis less susceptible to gene-gene correlations and other technical difficulties such as dropout events. We illustrate the benefits of iDEA with extensive simulations and applications to three scRNA-seq data.
+</p>
 <div style="text-align: center;">
   <img src="/images/iDEA_NC_2020.png" alt="drawing" width="500"/>
 </div>

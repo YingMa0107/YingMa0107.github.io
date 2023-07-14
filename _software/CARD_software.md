@@ -1,5 +1,5 @@
 ---
-title: "iDEA"
+title: "CARD"
 excerpt: "A spatially informed deconvolution method for spatially resolved transcriptomics"
 collection: software
 ---

@@ -15,6 +15,7 @@ Single-cell RNA sequencing (scRNA-seq) is a rapidly growing and widely applying 
 ------
 <p style="text-align: justify">
 Here, we aim to fill this critical knowledge gap by providing a comprehensive comparative evaluation of a variety of commonly used dimensionality reduction methods for scRNA-seq studies. Specifically, we compared 18 different dimensionality reduction methods on 30 publicly available scRNA-seq data sets that cover a range of sequencing techniques and sample sizes. We evaluated the performance of different dimensionality reduction methods for neighborhood preserving in terms of their ability to recover features of the original expression matrix, and for cell clustering and lineage reconstruction in terms of their accuracy and robustness using different metrics. We also evaluated the computational scalability of different dimensionality reduction methods by recording their computational time. Together, we hope our results can serve as an important guideline for practitioners to choose dimensionality reduction methods in the field of scRNA-seq analysis.
+</p>
 <div style="text-align: center;">
   <img src="/images/DR_GB_2019.png" alt="drawing" width="500"/>
 </div>
