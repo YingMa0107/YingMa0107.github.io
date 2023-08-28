@@ -1,6 +1,6 @@
 ---
 title: "iDEA"
-excerpt: "A Beysian Hierachcal method for integrative Differential expression and gene set Enrichment Analysis using summary statistics for scRNA-seq studies"
+excerpt: "A Bayesian Hierarchical model for integrative Differential expression and gene set Enrichment Analysis using summary statistics for scRNA-seq studies"
 collection: software
 ---
 
