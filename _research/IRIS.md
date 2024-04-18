@@ -19,7 +19,7 @@ In recent years, the advances of transcriptomics technologies have allowed us to
 we have developed a novel computational method, Integrative and Reference-Informed tissue Segmentation (IRIS), for spatial domain detection. IRIS is accurate, scalable, and robust, showcasing its advantages across six SRT datasets from different tissues and species, covering 37 tissue slices sequenced using 10x Visium, ST, Slide-seq, Vizgen MERFISH, Stereo-seq, and 10x Xenium. Our results show that IRIS considerably surpassed existing methods in accuracy for spatial domain detection with significantly greater computational efficiency. The unparalleled accuracy and computational gains delivered by IRIS make it an indispensable tool for integrated tissue segmentation in SRT studies (Figure 1). 
 </p>
 <div style="text-align: center;">
-  <img src="/images/IRIS_NM_2024.jpg" alt="drawing" width="500"/>
+  <img src="/images/IRIS_NM_2024.png" alt="drawing" width="500"/>
 </div>
 
 
