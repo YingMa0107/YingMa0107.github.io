@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 carousels:
 - images: 
+    - image: /images/IRIS_NM_2024.png
     - image: /assets/images/carousels/CARD_NBT_2022.jpg
     - image: /assets/images/carousels/iDEA_NC_2020.png
     - image: /assets/images/carousels/ExPRSWeb_AJHG_2022.jpeg
