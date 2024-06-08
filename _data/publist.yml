@@ -2,8 +2,8 @@
   image: IRIS_NM_2024.png
   authors:  Ying Ma and Xiang Zhou
   link:
-    url: 
-    display: Nature Methods in press 2024
+    url: https://www.nature.com/articles/s41592-024-02284-9
+    display: Nature Methods 2024
   highlight: 0
 
 - title: "ExPRSweb: An online repository with polygenic risk scores for common health-related exposures"
@@ -12,7 +12,7 @@
   link:
     url: https://www.cell.com/ajhg/pdf/S0002-9297(22)00404-9.pdf
     display: The American Journal of Human Genetics 2022
-  highlight: 0
+  highlight: 1
 
 - title: "Modeling zero inflation is not necessary for spatial transcriptomics"
   image:
@@ -20,7 +20,7 @@
   link:
     url: https://doi.org/10.1186/s13059-022-02684-0
     display: Genome Biology 2022
-  highlight: 0
+  highlight: 1
 
 - title: "Spatially informed cell type deconvolution for spatial transcriptomics"
   image: CARD_NBT_2022.jpg
@@ -29,7 +29,7 @@
   link:
     url: https://www.nature.com/articles/s41587-022-01273-7
     display: Nature Biotechnology 2022
-  highlight: 1
+  highlight: 0
 
 - title: "Genetic prediction of complex traits with polygenic scores: a statistical review"
   image:
