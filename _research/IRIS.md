@@ -27,7 +27,7 @@ we have developed a novel computational method, Integrative and Reference-Inform
 ------
 Accurate and Efficient Integrative Reference-Informed Spatial Domain Detection for Spatial Transcriptomics
 
-[Paper Accepted in Nature Methods 2024]()
+[Paper Published in Nature Methods 2024](https://www.nature.com/articles/s41592-024-02284-9)
 
 # Selected important results by IRIS
 ------
