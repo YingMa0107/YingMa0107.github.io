@@ -41,6 +41,11 @@ Hiring
 <p style="text-align: justify">
 We have openings for multiple positions, including Postdoctoral Fellow, and PhD Student. We are seeking applications for a postdoctoral fellow position within our research group. This position emphasize developing statistical methods and computational tools in high-dimensional biological data from functional genomic seuqnecing studies or genome-wide association studies (GWASs). Specific areas include, but not limited to, (1) spatially resolved multi-omics data; (2) single-cell genomics; (3) genetic risk prediction; (4) integrative modeling of GWAS summary statistics and omics data. This opportunity offers competitive benefits and involves working with diverse large-scale datasets. Prospective applicants should hold or be pursuing a PhD in biostatistics, statistics, computer science, bioinformatics, computational biology, biomedical engeneering, mathematics, or a related quantitative discipline. Strong computational skills are required. Interested applicants should submit a brief statement of interest, CV, and contact information for three references. For questions regarding the position, please contact me at : <a href="mailto:ying_ma@brown.edu">ying_ma@brown.edu</a>. Applications will be reviewed promptly and accepted until the positions are filled.
 </p>
+
+<p style="text-align: justify">
+**For prospective Ph.D. students**: I can recruit students through both the Computational Biology and Biostatistics Ph.D. programs. The admission committees for both programs carefully review each application to select future students. If you are interested in working with me, please feel free to mention my name in your application. I look forward to the possibility of working with you in the future.
+</p>
+
 ------
 ## &#x1F4E3; Latest News
 <div style="text-align:justify">
