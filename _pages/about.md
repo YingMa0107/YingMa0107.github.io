@@ -43,7 +43,7 @@ We have openings for multiple positions, including Postdoctoral Fellow, and PhD 
 </p>
 
 <p style="text-align: justify">
-<b>For prospective Ph.D. students<b>: I can recruit students through both the Computational Biology and Biostatistics Ph.D. programs. The admission committees for both programs carefully review each application to select future students. If you are interested in working with me, please feel free to mention my name in your application. I look forward to the possibility of working with you in the future.
+<b>For prospective Ph.D. students</b>: I can recruit students through both the Computational Biology and Biostatistics Ph.D. programs. The admission committees for both programs carefully review each application to select future students. If you are interested in working with me, please feel free to mention my name in your application. I look forward to the possibility of working with you in the future.
 </p>
 
 ------
