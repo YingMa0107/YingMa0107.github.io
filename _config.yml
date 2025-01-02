@@ -85,7 +85,7 @@ author:
   avatar           : "headshot.jpg"
   bio              : "Ph.D. Biostatistics"
   location 1       : "SPH 722"
-  location 2       : "CCMB 365"
+  location 2       : "CCMB 323"
   #employer         :
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=SaJWms0AAAAJ&hl=en"
@@ -189,6 +189,12 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  team:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -246,6 +252,25 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _team
+  - scope:
+      path: ""
+      type: team
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+
 
 # Sass/SCSS
 sass:
