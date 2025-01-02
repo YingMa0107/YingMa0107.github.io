@@ -1,5 +1,8 @@
 # main links links
 main:
+  - title: "Team"
+    url: /team/
+    
   - title: "Publications"
     url: /publications/
 
@@ -12,8 +15,8 @@ main:
   - title: "Software"
     url: /software/
         
-  #- title: "Blog Posts"
-  #  url: /year-archive/
+  - title: "Teaching"
+    url: /teaching/
     
   #- title: "CV"
   #  url: /cv/
