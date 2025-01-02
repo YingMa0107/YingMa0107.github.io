@@ -1,11 +1,3 @@
----
-layout: archive
-title: "Teaching"
-permalink: /teaching/
-author_profile: true
----
-
-
 ## Brown University 
 
 - PHP1560/2560. Statistical Computing in R. Fall 2024.
