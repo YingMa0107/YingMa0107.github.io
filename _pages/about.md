@@ -31,7 +31,9 @@ My research interests focus on developing efficient statistical learning methods
 4. Genetic risk analysis, Polygenic risk score
 5. High dimensional data
 6. Machine learning
-7. Data integration
+7. Deep Learning
+8. AI for biology
+
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
 
@@ -39,7 +41,7 @@ Hiring
 ======
 ------
 <p style="text-align: justify">
-We have openings for multiple positions, including postdoctoral fellows, graduate students, and undergraduate students. We are seeking applications for a postdoctoral fellow position within our research group. This position emphasize developing statistical methods and computational tools in high-dimensional biological data from functional genomic seuqnecing studies or genome-wide association studies (GWASs). Specific areas include, but not limited to, (1) spatially resolved multi-omics data; (2) single-cell genomics; (3) genetic risk prediction; (4) integrative modeling of GWAS summary statistics and omics data. This opportunity offers competitive benefits and involves working with diverse large-scale datasets. Prospective applicants should hold or be pursuing a PhD in biostatistics, statistics, computer science, bioinformatics, computational biology, biomedical engeneering, mathematics, or a related quantitative discipline. Strong computational skills are required. Interested applicants should submit a brief statement of interest, CV, and contact information for three references. For questions regarding the position, please contact me at : <a href="mailto:ying_ma@brown.edu">ying_ma@brown.edu</a>. Applications will be reviewed promptly and accepted until the positions are filled.
+We have openings for multiple positions, including postdoctoral fellows, graduate students, and undergraduate students. We are seeking applications for a postdoctoral fellow position within our research group. This position emphasize developing statistical methods and computational/AI tools in high-dimensional biological data from functional genomic seuqnecing studies or genome-wide association studies (GWASs). Specific areas include, but not limited to, (1) spatially resolved multi-omics data; (2) single-cell genomics; (3) genetic risk prediction; (4) integrative modeling of GWAS summary statistics and omics data. This opportunity offers competitive benefits and involves working with diverse large-scale datasets. Prospective applicants should hold or be pursuing a PhD in computer science, AI, biostatistics, statistics, bioinformatics, computational biology, biomedical engeneering, mathematics, or a related quantitative discipline. Strong computational skills are required. Interested applicants should submit a brief statement of interest, CV, and contact information for three references. For questions regarding the position, please contact me at : <a href="mailto:ying_ma@brown.edu">ying_ma@brown.edu</a>. Applications will be reviewed promptly and accepted until the positions are filled.
 </p>
 
 <p style="text-align: justify">
