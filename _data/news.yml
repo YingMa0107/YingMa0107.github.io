@@ -1,14 +1,14 @@
 - date: 2024-08-06
   title: "Chichun (TJ) Tan gave a talk about his project in the **JSM 2024**!"
-  
-- date: 2024-07
-  title: "Vivek Rajani received the Undergraduate Teaching and Research Award (UTRA) for Summer 2024, Faith Shim for Spring 2024, and both Andrew Yang and Seowon Chang for Fall 2024"
+
+- date: 2024-07-01
+  title: "Vivek Rajani received the Undergraduate Teaching and Research Award (UTRA) for Summer 2024, Faith Shim for Spring 2024, and both Andrew Yang and Seowon Chang for Fall 2024."
 
 - date: 2024-06-06
-  title: "Our method, IRIS, was published by **Nature Methods**! Also check the news website: https://sph.brown.edu/news/2024-06-06/iris-ai and https://thepathologist.com/inside-the-lab/all-eyes-on-iris"
+  title: "Our method, IRIS, was published by **Nature Methods**! Also, check the news website: [IRIS AI](https://sph.brown.edu/news/2024-06-06/iris-ai) and [The Pathologist](https://thepathologist.com/inside-the-lab/all-eyes-on-iris)."
 
 - date: 2024-04-18
-  title: "Our method, IRIS, was accepted by **Nature Methods**. We look forward to seeing it published**!"
+  title: "Our method, IRIS, was accepted by **Nature Methods**. We look forward to seeing it published!"
 
 - date: 2024-03-21
   title: "Ying received the **American Cancer Society Institutional Research Grant (ACS-IRG) pilot award**!"
@@ -20,28 +20,25 @@
   title: "Ying started her Assistant Professor position at **Brown University**!"
 
 - date: 2022-10-08
-  title: "Our paper working on polygenic risk score analysis for common health-related exposures was published on **The American Journal of Human Genetics**!"
+  title: "Our paper on polygenic risk score analysis for common health-related exposures was published in **The American Journal of Human Genetics**!"
 
 - date: 2022-05-18
-  title: "Our collaborative paper on investigating the distributional properties on spatially resolved expression count data was published on **Genome Biology**!"
+  title: "Our collaborative paper on investigating the distributional properties of spatially resolved expression count data was published in **Genome Biology**!"
 
 - date: 2022-05-02
-  title: "Our method CARD was published on **Nature Biotechnology**!"
+  title: "Our method, CARD, was published in **Nature Biotechnology**!"
 
 - date: 2021-11-02
   title: "Our review paper on statistical methods in genetic risk prediction of complex traits was selected as the cover paper in **Trends in Genetics**, with cover art designed by us!"
 
-- date: 2020-03-27
-  title: "Our method iDEA that performs integrative DE and GSEA analysis was published on **Nature Communications**!"
-  
-- date: 2021-11-01
-  title: "Our review paper on statistical methods in genetic risk prediction of complex traits was published on **Trends in Genetics**!"
-
 - date: 2021-09-16
-  title: "Our collaborative paper on cross-ancestry polygenic risk score analysis was published on **Plos Genetics**!"
+  title: "Our collaborative paper on cross-ancestry polygenic risk score analysis was published in **PLoS Genetics**!"
 
 - date: 2020-11-05
-  title: "Our collaborative paper working on polygenic risk score analysis for 35 common cancer traits was published on **The American Journal of Human Genetics**!"
+  title: "Our collaborative paper on polygenic risk score analysis for 35 common cancer traits was published in **The American Journal of Human Genetics**!"
+
+- date: 2020-03-27
+  title: "Our method, iDEA, which performs integrative DE and GSEA analysis, was published in **Nature Communications**!"
 
 - date: 2019-12-10
-  title: "Our collaborative paper benchmarking on 18 different dimensionality reduction methods on 30 publicly available scRNA-seq datasets was published on **Genome Biology**!"
+  title: "Our collaborative paper benchmarking 18 different dimensionality reduction methods on 30 publicly available scRNA-seq datasets was published in **Genome Biology**!"
