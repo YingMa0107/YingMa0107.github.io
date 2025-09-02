@@ -16,7 +16,16 @@ author_profile: true
   <div>
     <p style="margin:0;"><strong>Ying Ma</strong><br>
     Edens Family Assistant Professor of Healthcare Communications & Technology; Assistant Professor of Biostatistics & CCMB, Brown University.</p>
-    <p style="margin:6px 0 0;"><em>Background:</em> PhD in Biostatistics (University of Michigan). Research in statistical/ML methods for spatial omics, multi-omics integration, and AI for biomedicine.</p>
+  </div>
+</div>
+
+<div style="display:flex;align-items:center;margin:18px 0;">
+  <img src="/assets/images/team/JingxuanBao.png" alt="Jingxuan Bao headshot"
+       style="width:180px;height:180px;object-fit:cover;margin-right:20px;">
+  <div>
+    <p style="margin:0;"><strong>Jingxuan Bao</strong><br>
+    Postdoctoral Research Associate, Data Science Institute & Biostatistics, Brown University</p>
+    <p style="margin:6px 0 0;"><em>Background:</em> BS in Applied Mathematics, MS in Applied Mathematics and Computational Science, PhD in Computational Biology  </p>
   </div>
 </div>
 
