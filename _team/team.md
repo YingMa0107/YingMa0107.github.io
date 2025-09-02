@@ -11,7 +11,8 @@ author_profile: true
 <!-- Tip: keep photos ~120–200px wide, square crop, compressed JPG/PNG -->
 
 <div style="display:flex;align-items:center;margin:18px 0;">
-  <img src="/assets/images/team/ying_ma.jpg" alt="Ying Ma headshot" width="120" style="border-radius:50%;margin-right:16px;">
+  <img src="/assets/images/team/ying_ma.jpg" alt="Ying Ma headshot"
+    style="width:180px;height:180px;object-fit:cover;margin-right:20px;">
   <div>
     <p style="margin:0;"><strong>Ying Ma</strong><br>
     Edens Family Assistant Professor of Healthcare Communications & Technology; Assistant Professor of Biostatistics & CCMB, Brown University.</p>
