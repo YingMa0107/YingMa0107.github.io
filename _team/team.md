@@ -22,9 +22,9 @@ author_profile: true
 <div style="display:flex;align-items:flex-start;margin:18px 0;">
   <img src="/assets/images/team/JingxuanBao.jpg" alt="Jingxuan Bao headshot"
        style="width:180px;height:180px;object-fit:cover;object-position:center;margin-right:20px;background:white;">
-  <div>
+  <div style="line-height:1.4;">
     <p style="margin:0;"><strong>Jingxuan Bao</strong><br>
-    Postdoctoral Research Associate, Data Science Institute & Biostatistics, Brown University</p>
+    Postdoctoral Research Associate, Data Science Institute &amp; Biostatistics, Brown University</p>
     <p style="margin:6px 0 0;"><em>Background:</em> BS in Applied Mathematics, MS in Applied Mathematics and Computational Science, PhD in Computational Biology</p>
   </div>
 </div>
@@ -32,7 +32,7 @@ author_profile: true
 <div style="display:flex;align-items:flex-start;margin:18px 0;">
   <img src="/assets/images/team/ChichunTan.jpg" alt="Chichun (TJ) Tan headshot"
        style="width:180px;height:180px;object-fit:cover;object-position:center;margin-right:20px;background:white;">
-  <div>
+  <div style="line-height:1.4;">
     <p style="margin:0;"><strong>Chichun (TJ) Tan</strong><br>
     PhD Candidate, Biostatistics, Brown University</p>
     <p style="margin:6px 0 0;"><em>Background:</em> BS in Mathematics, MS in Biostatistics</p>
