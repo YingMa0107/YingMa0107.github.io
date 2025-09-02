@@ -126,7 +126,7 @@ I’m very fortunate to work with several amazing students to whom I serve as th
        style="width:180px;height:180px;object-fit:cover;object-position:center;margin-right:20px;background:white;">
   <div style="line-height:1.4;">
     <p style="margin:0;"><strong>Jonathan Xu</strong><br>
-    Undergraduate Student, Applied Mathematics and Computer Science, Brown University</p>
+    <p style="margin:6px 0 0;">Undergraduate Student, Applied Mathematics and Computer Science, Brown University</p>
   </div>
 </div>
 
