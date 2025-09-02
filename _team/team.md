@@ -26,7 +26,7 @@ I’m very fortunate to work with several amazing students to whom I serve as th
   <div style="line-height:1.4;">
     <p style="margin:0;"><strong>Jingxuan Bao</strong><br>
     Postdoctoral Research Associate, Data Science Institute &amp; Biostatistics, Brown University</p>
-    <p style="margin:6px 0 0;"><em>Background:</em> B.S. in Applied Mathematics, M.S. in Applied Mathematics and Computational Science, PhD in Computational Biology</p>
+    <p style="margin:6px 0 0;">B.S. in Applied Mathematics, M.S. in Applied Mathematics and Computational Science, PhD in Computational Biology</p>
   </div>
 </div>
 
