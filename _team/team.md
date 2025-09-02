@@ -25,7 +25,7 @@ author_profile: true
   <div style="line-height:1.4;">
     <p style="margin:0;"><strong>Jingxuan Bao</strong><br>
     Postdoctoral Research Associate, Data Science Institute &amp; Biostatistics, Brown University</p>
-    <p style="margin:6px 0 0;"><em>Background:</em> BS in Applied Mathematics, MS in Applied Mathematics and Computational Science, PhD in Computational Biology</p>
+    <p style="margin:6px 0 0;"><em>Background:</em> B.S. in Applied Mathematics, M.S. in Applied Mathematics and Computational Science, PhD in Computational Biology</p>
   </div>
 </div>
 
@@ -35,7 +35,7 @@ author_profile: true
   <div style="line-height:1.4;">
     <p style="margin:0;"><strong>Chichun (TJ) Tan</strong><br>
     PhD Candidate, Biostatistics, Brown University</p>
-    <p style="margin:6px 0 0;"><em>Background:</em> BS in Mathematics, MS in Biostatistics</p>
+    <p style="margin:6px 0 0;"><em>Background:</em> B.S. in Mathematics, M.S. in Biostatistics</p>
   </div>
 </div>
 
@@ -45,9 +45,20 @@ author_profile: true
   <div style="line-height:1.4;">
     <p style="margin:0;"><strong>Yu (Zoe) Zhu</strong><br>
     PhD Student, Computational Biology, Brown University</p>
-    <p style="margin:6px 0 0;"><em>Background:</em> BS in Mathematics</p>
+    <p style="margin:6px 0 0;"><em>Background:</em> B.S. in Biochemistry, B.A. in Mathematics, and Minor in Bioinformatics</p>
   </div>
 </div>
+
+<div style="display:flex;align-items:flex-start;margin:18px 0;">
+  <img src="/assets/images/team/RuohanWang.jpg" alt="Ruohan Wang headshot"
+       style="width:180px;height:180px;object-fit:cover;object-position:center;margin-right:20px;background:white;">
+  <div style="line-height:1.4;">
+    <p style="margin:0;"><strong>Ruohan Wang</strong><br>
+    PhD Student, Computational Biology, Brown University</p>
+    <p style="margin:6px 0 0;"><em>Background:</em> B.S. in Computer Science</p>
+  </div>
+</div>
+
 
 * Ying Ma, Edens Family Assistant Professor of Healthcare Communications and Technology, Assistant Professor of Biostatistics and Center for Computational Molecular Biology at the Brown University. 
 * Chichun Tan, PhD student, Biostatistics, Brown University
