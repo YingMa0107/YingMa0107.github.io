@@ -120,13 +120,12 @@ I’m very fortunate to work with several amazing students to whom I serve as th
   </div>
 </div>
 
-
 <div style="display:flex;align-items:flex-start;margin:18px 0;">
   <img src="/assets/images/team/JonathanXu.jpg" alt="Jonathan Xu headshot"
        style="width:180px;height:180px;object-fit:cover;object-position:center;margin-right:20px;background:white;">
   <div style="line-height:1.4;">
     <p style="margin:0;"><strong>Jonathan Xu</strong><br>
-    <p style="margin:6px 0 0;">Undergraduate Student, Applied Mathematics and Computer Science, Brown University</p>
+    Undergraduate Student, Applied Mathematics and Computer Science, Brown University</p>
   </div>
 </div>
 
