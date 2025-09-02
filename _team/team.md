@@ -24,7 +24,7 @@ author_profile: true
        style="width:180px;height:180px;object-fit:cover;object-position:center;margin-right:20px;background:white;">
   <div style="line-height:1.4;">
     <p style="margin:0;"><strong>Jingxuan Bao</strong><br>
-    Postdoctoral Research Associate, Data Science Institute &amp; Biostatistics, Brown University</p>
+    PhD Candidate, Biostatistics, Brown University</p>
     <p style="margin:6px 0 0;"><em>Background:</em> BS in Applied Mathematics, MS in Applied Mathematics and Computational Science, PhD in Computational Biology</p>
   </div>
 </div>
