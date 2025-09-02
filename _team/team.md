@@ -130,6 +130,12 @@ I’m very fortunate to work with several amazing students to whom I serve as th
 </div>
 
 <div style="margin:18px 0;">
+  <p style="margin:0;"><strong>Xin Wei</strong><br>
+  PhD Candidate (co-advise with Dr. Zhijin (Jean) Wu), Biostatistics, Brown University</p>
+  <p style="margin:6px 0 0;"><em>Background:</em> B.S. in Biostatistics.</p>
+</div>
+
+<div style="margin:18px 0;">
   <p style="margin:0;"><strong>Andrew Yang</strong><br>
   1st year MD student, Warren Alpert Medical School, Brown University</p>
   <p style="margin:6px 0 0;"><em>Background:</em> B.S. in Computer Science and Applied Mathematics.</p>
