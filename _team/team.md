@@ -20,7 +20,7 @@ author_profile: true
 </div>
 
 <div style="display:flex;align-items:center;margin:18px 0;">
-  <img src="/assets/images/team/JingxuanBao.png" alt="Jingxuan Bao headshot"
+  <img src="/assets/images/team/JingxuanBao.jpg" alt="Jingxuan Bao headshot"
        style="width:180px;height:180px;object-fit:cover;object-position:center;margin-right:20px;background:white;">
   <div>
     <p style="margin:0;"><strong>Jingxuan Bao</strong><br>
