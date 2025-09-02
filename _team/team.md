@@ -4,6 +4,7 @@ title: "Team"
 permalink: /team/
 author_profile: true
 ---
+I’m very fortunate to work with several amazing students to whom I serve as their primary advisor or co-advisor.
 
 ## Current Members
 
