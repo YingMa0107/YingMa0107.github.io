@@ -82,7 +82,7 @@ I’m very fortunate to work with several amazing students to whom I serve as th
 </div>
 
 <div style="display:flex;align-items:flex-start;margin:18px 0;">
-  <img src="/assets/images/team/Man-FangLiang.jpg" alt="Man-Fang Liang headshot"
+  <img src="/assets/images/team/ManFangLiang.jpg" alt="Man-Fang Liang headshot"
        style="width:180px;height:180px;object-fit:cover;object-position:center;margin-right:20px;background:white;">
   <div style="line-height:1.4;">
     <p style="margin:0;"><strong>Man-Fang Liang</strong><br>
