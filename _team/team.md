@@ -132,25 +132,25 @@ I’m very fortunate to work with several amazing students to whom I serve as th
 <div style="margin:18px 0;">
   <p style="margin:0;"><strong>Xin Wei</strong><br>
   PhD Candidate (co-advise with Dr. Zhijin (Jean) Wu), Biostatistics, Brown University</p>
-  <p style="margin:6px 0 0;"><em>Background:</em> B.S. in Biostatistics, M.S. in Biostatistics </p>
+  <p style="margin:6px 0 0;">B.S. in Biostatistics, M.S. in Biostatistics </p>
 </div>
 
 <div style="margin:18px 0;">
   <p style="margin:0;"><strong>Andrew Yang</strong><br>
   1st year MD student, Warren Alpert Medical School, Brown University</p>
-  <p style="margin:6px 0 0;"><em>Background:</em> B.S. in Computer Science and Applied Mathematics.</p>
+  <p style="margin:6px 0 0;">B.S. in Computer Science and Applied Mathematics.</p>
 </div>
 
 <div style="margin:18px 0;">
   <p style="margin:0;"><strong>Jing Fu</strong><br>
   1st year PhD student, Biostatistics, Brown University</p>
-  <p style="margin:6px 0 0;"><em>Background:</em> B.S. in Statistics.</p>
+  <p style="margin:6px 0 0;">B.S. in Statistics.</p>
 </div>
 
 <div style="margin:18px 0;">
   <p style="margin:0;"><strong>Seowon Chang</strong><br>
   1st year PhD student, Computational Biology, Brown University</p>
-  <p style="margin:6px 0 0;"><em>Background:</em> B.S. in Computer Science and Applied Mathematics.</p>
+  <p style="margin:6px 0 0;">B.S. in Computer Science and Applied Mathematics.</p>
 </div>
 
 
