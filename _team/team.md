@@ -21,7 +21,7 @@ author_profile: true
 
 <div style="display:flex;align-items:center;margin:18px 0;">
   <img src="/assets/images/team/ChichunTan.jpg" alt="Chichun (TJ) Tan headshot"
-       style="width:120px;height:120px;object-fit:cover;margin-right:16px;">
+       style="width:180px;height:180px;object-fit:cover;margin-right:20px;">
   <div>
     <p style="margin:0;"><strong>Chichun (TJ) Tan</strong><br>
     PhD Candidate, Biostatistics, Brown University</p>
