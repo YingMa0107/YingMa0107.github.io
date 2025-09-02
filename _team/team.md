@@ -19,7 +19,7 @@ author_profile: true
   </div>
 </div>
 
-<div style="display:flex;align-items:center;margin:18px 0;">
+<div style="display:flex;align-items:flex-start;margin:18px 0;">
   <img src="/assets/images/team/JingxuanBao.jpg" alt="Jingxuan Bao headshot"
        style="width:180px;height:180px;object-fit:cover;object-position:center;margin-right:20px;background:white;">
   <div>
@@ -29,7 +29,7 @@ author_profile: true
   </div>
 </div>
 
-<div style="display:flex;align-items:center;margin:18px 0;">
+<div style="display:flex;align-items:flex-start;margin:18px 0;">
   <img src="/assets/images/team/ChichunTan.jpg" alt="Chichun (TJ) Tan headshot"
        style="width:180px;height:180px;object-fit:cover;object-position:center;margin-right:20px;background:white;">
   <div>
