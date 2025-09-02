@@ -39,6 +39,16 @@ author_profile: true
   </div>
 </div>
 
+<div style="display:flex;align-items:flex-start;margin:18px 0;">
+  <img src="/assets/images/team/ZoeZhu.JPG" alt="Yu (Zoe) Zhu headshot"
+       style="width:180px;height:180px;object-fit:cover;object-position:center;margin-right:20px;background:white;">
+  <div style="line-height:1.4;">
+    <p style="margin:0;"><strong>Yu (Zoe) Zhu</strong><br>
+    PhD Student, Computational Biology, Brown University</p>
+    <p style="margin:6px 0 0;"><em>Background:</em> BS in Mathematics</p>
+  </div>
+</div>
+
 * Ying Ma, Edens Family Assistant Professor of Healthcare Communications and Technology, Assistant Professor of Biostatistics and Center for Computational Molecular Biology at the Brown University. 
 * Chichun Tan, PhD student, Biostatistics, Brown University
 * Yu (Zoe) Zhu, PhD student, Computational Biology, Brown University
