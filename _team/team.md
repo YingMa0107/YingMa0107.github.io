@@ -21,7 +21,7 @@ author_profile: true
 
 <div style="display:flex;align-items:center;margin:18px 0;">
   <img src="/assets/images/team/JingxuanBao.png" alt="Jingxuan Bao headshot"
-       style="width:250px;height:180px;object-fit:cover;margin-right:22px;">
+     style="width:180px;height:180px;object-fit:cover;object-position:center;margin-right:20px;">
   <div>
     <p style="margin:0;"><strong>Jingxuan Bao</strong><br>
     Postdoctoral Research Associate, Data Science Institute & Biostatistics, Brown University</p>
