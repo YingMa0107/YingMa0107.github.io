@@ -117,7 +117,7 @@ I’m very fortunate to work with several amazing students to whom I serve as th
   <div style="line-height:1.4;">
     <p style="margin:0;"><strong>Vivek Rajani</strong><br>
     Post-undergraduate Research Assistant </p>
-    <p style="margin:6px 0 0;">B.S. in Biochmistry</p>
+    <p style="margin:6px 0 0;">B.S. in Biochemistry</p>
   </div>
 </div>
 
