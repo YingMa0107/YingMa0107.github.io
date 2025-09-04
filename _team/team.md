@@ -163,6 +163,12 @@ I’m very fortunate to work with several amazing students to whom I serve as th
   <p style="margin:6px 0 0;">B.S. in Statistics.</p>
 </div>
 
+## Alumni
+<div style="margin:18px 0;">
+  <p style="margin:0;"><strong>Wenxing (Blue) Wang</strong><br>
+  Now a 1st year PhD student at the Department of Biostatistics at University of Florida</p>
+  <p style="margin:6px 0 0;">B.S. in Applied Biology with Biotechnology, M.S. in Biostatistics.</p>
+</div>
 
 
 
