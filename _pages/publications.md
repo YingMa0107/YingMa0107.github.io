@@ -5,10 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-<sub>
-* `#` denotes <strong>corresponding author</strong>.  
-</sub>
-
 {% assign groups = site.data.pubs_by_year | sort: 'year' | reverse %}
 
 <nav class="years-nav" style="margin-bottom:1rem;">
