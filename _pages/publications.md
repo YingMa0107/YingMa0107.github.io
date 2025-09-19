@@ -4,23 +4,22 @@ title: "Publications"
 permalink: /publications/
 ---
 
-{% assign groups = site.data.publish | sort: 'year' | reverse %}
+<h1>Publications</h1>
 
-## Publications
-
+{% assign groups = site.data.pubs_by_year | sort: 'year' | reverse %}
 {% for g in groups %}
-### {{ g.year }}
-<ul class="pub-list">
-  {% for it in g.items %}
-    <li>{{ it.cite | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-  {% endfor %}
-</ul>
+  <h2>{{ g.year }}</h2>
+  <ul class="pub-list">
+    {% for it in g.items %}
+      <li>{{ it.cite | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+    {% endfor %}
+  </ul>
 {% endfor %}
 
-<hr>
+<hr/>
 
-<div class="pub-legend">
-  <span><code>*</code> co-first author</span> ·
-  <span><code>†</code> co-corresponding author</span> ·
-  <span><code>+</code> corresponding author</span>
-</div>
+<p><sub>
+* `*` denotes <strong>co-first author</strong>.<br/>
+* `†` denotes <strong>co-corresponding author</strong>.<br/>
+* `+` denotes <strong>corresponding author</strong>.
+</sub></p>
