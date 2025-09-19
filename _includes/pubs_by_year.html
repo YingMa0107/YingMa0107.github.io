@@ -1,0 +1,15 @@
+<div class="pub-legend" style="margin-bottom:.5rem; font-size:.95em;">
+  <em>* co-first authors; † co-corresponding authors</em>
+</div>
+
+{% assign groups = site.data.pubs_by_year | sort: "year" | reverse %}
+{% for g in groups %}
+  <h3 style="margin:1rem 0 .25rem 0;">{{ g.year }}</h3>
+  <ul style="list-style:none; padding-left:0; margin:0 0 1rem 0;">
+    {% for it in g.items %}
+      <li style="margin:0 0 .5rem 0;">
+        {{ it.cite | markdownify | strip_newlines }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
