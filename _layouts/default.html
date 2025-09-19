@@ -2,37 +2,40 @@
 layout: nil
 ---
 
-{% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="{{ site.locale | default: 'en' | slice: 0,2 }}" class="no-js">
   <head>
     {% include head.html %}
+    {% comment %}
+      Optional site-specific styles. Keep this include ONLY if the file exists.
+      (You said you’re using it for the footer CSS, so we’ll leave it.)
+    {% endcomment %}
     {% include head/custom.html %}
-    <!-- Favicon Links Begin -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicon/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href "{{ '/assets/images/favicon/favicon-16x16.png' | relative_url }}">
+    <link rel="manifest" href="{{ '/assets/images/favicon/site.webmanifest' | relative_url }}">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
   </head>
 
   <body>
+    {%- comment -%}
+      Primer theme doesn’t ship Minimal-Mistakes includes like:
+      - browser-upgrade.html
+      - masthead.html
+      - scripts.html
+      If you actually created them in _includes/, you can re-add them.
+    {%- endcomment -%}
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    <!-- Main content wrapped in Primer container -->
+    <main class="container-lg px-3 my-5 markdown-body">
+      {{ content }}
+    </main>
 
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-
+    <!-- Footer: this include must exist -->
+    {% include footer.html %}
   </body>
 </html>
