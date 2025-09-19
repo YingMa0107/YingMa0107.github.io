@@ -1,99 +1,99 @@
-- date: 2025-09-19
+- date: "2025-09-19"
   title: >-
     Our method JADE has been accepted to **NeurIPS 2025** (Top Machine Learning Conference)!
 
-- date: 2025-09-16
+- date: "2025-09-16"
   title: >-
     Our latest paper was published in **Nature Methods**:
     [Bridging histology and spatial gene expression across scales](https://www.nature.com/articles/s41592-025-02806-z).
 
-- date: 2025-09-01
+- date: "2025-09-01"
   title: >-
-    Our lab has received three grants from NIH and NSF, including the MIRA ESI R35 Outstanding Investigator Award
-    from NIGMS and two NSF grants. These awards will support five years of our lab’s research. More details:
+    Our lab has received **three grants from NIH and NSF**, including the **MIRA ESI R35 Outstanding Investigator Award**
+    from NIGMS and **two NSF grants**. These awards will support five years of our lab’s research. More details:
     [Brown SPH news](https://biostatistics.sph.brown.edu/news/2025-09-15/ying-3) and
     [CCMB news](https://ccmb.brown.edu/news/2025-09-15/ying-ma-grants).
 
-- date: 2025-08-05
+- date: "2025-08-05"
   title: >-
     Andrew Yang’s work has been selected as a contributed poster at **JSM 2025**!
-  
-- date: 2025-07-01
+
+- date: "2025-07-01"
   title: >-
     Ying Ma named to the endowed Edens Family Assistant Professorship in Healthcare Communications and Technology!
 
-- date: 2025-06-02
+- date: "2025-06-02"
   title: >-
     Andrew Yang’s work received the Best Student Poster Award at **NESS 2025**!
-  
-- date: 2025-06-02
+
+- date: "2025-06-02"
   title: >-
     Andrew Yang’s work was selected for a contributed talk at **NESS 2025**!
 
-- date: 2024-08-06
+- date: "2024-08-06"
   title: >-
     Chichun (TJ) Tan gave a talk about his project at **JSM 2024**!
 
-- date: 2024-07-01
+- date: "2024-07-01"
   title: >-
     Vivek Rajani received the Undergraduate Teaching and Research Award (UTRA) for Summer 2024; Faith Shim for Spring 2024;
     and both Andrew Yang and Seowon Chang for Fall 2024.
 
-- date: 2024-06-06
+- date: "2024-06-06"
   title: >-
     Our method, IRIS, was published in **Nature Methods**! Also see:
     [IRIS AI](https://sph.brown.edu/news/2024-06-06/iris-ai) and
     [The Pathologist](https://thepathologist.com/inside-the-lab/all-eyes-on-iris).
 
-- date: 2024-04-18
+- date: "2024-04-18"
   title: >-
     Our method, IRIS, was accepted by **Nature Methods**. We look forward to seeing it published!
 
-- date: 2024-03-21
+- date: "2024-03-21"
   title: >-
     Ying received the **American Cancer Society Institutional Research Grant (ACS-IRG) pilot award**!
 
-- date: 2024-03-15
+- date: "2024-03-15"
   title: >-
     Chichun (TJ) Tan gave a talk about his project at **ENAR 2024**!
 
-- date: 2023-08-01
+- date: "2023-08-01"
   title: >-
     Ying started her Assistant Professor position at **Brown University**!
 
-- date: 2022-10-08
+- date: "2022-10-08"
   title: >-
     Our paper on polygenic risk score analysis for common health-related exposures was published in
     **The American Journal of Human Genetics**!
 
-- date: 2022-05-18
+- date: "2022-05-18"
   title: >-
     Our collaborative paper on the distributional properties of spatially resolved expression count data
     was published in **Genome Biology**!
 
-- date: 2022-05-02
+- date: "2022-05-02"
   title: >-
     Our method, CARD, was published in **Nature Biotechnology**!
 
-- date: 2021-11-02
+- date: "2021-11-02"
   title: >-
     Our review paper on statistical methods in genetic risk prediction of complex traits was selected as the cover
     paper in **Trends in Genetics**, with cover art designed by us!
 
-- date: 2021-09-16
+- date: "2021-09-16"
   title: >-
     Our collaborative paper on cross-ancestry polygenic risk score analysis was published in **PLOS Genetics**!
 
-- date: 2020-11-05
+- date: "2020-11-05"
   title: >-
     Our collaborative paper on polygenic risk score analysis for 35 common cancer traits was published in
     **The American Journal of Human Genetics**!
 
-- date: 2020-03-27
+- date: "2020-03-27"
   title: >-
     Our method, iDEA, which performs integrative DE and GSEA analysis, was published in **Nature Communications**!
 
-- date: 2019-12-10
+- date: "2019-12-10"
   title: >-
     Our collaborative paper benchmarking 18 dimensionality reduction methods on 30 public scRNA-seq datasets
     was published in **Genome Biology**!
