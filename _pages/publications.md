@@ -1,25 +1,30 @@
 ---
-layout: default
+layout: archive
 title: "Publications"
 permalink: /publications/
+author_profile: true
 ---
 
-<h1>Publications</h1>
+<sub>
+* `#` denotes <strong>corresponding author</strong>.  
+</sub>
 
 {% assign groups = site.data.pubs_by_year | sort: 'year' | reverse %}
+
+<nav class="years-nav" style="margin-bottom:1rem;">
+  {% for g in groups %}
+    <a href="#y{{ g.year }}" style="margin-right:0.5rem;">{{ g.year }}</a>
+  {% endfor %}
+</nav>
+
 {% for g in groups %}
-  <h2>{{ g.year }}</h2>
-  <ul class="pub-list">
-    {% for it in g.items %}
-      <li>{{ it.cite | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-    {% endfor %}
-  </ul>
+### <a id="y{{ g.year }}"></a>{{ g.year }}
+
+<ul class="pub-list">
+  {% for it in g.items %}
+    <li class="pub-item">
+      {{ it.cite | markdownify | remove: '<p>' | remove: '</p>' }}
+    </li>
+  {% endfor %}
+</ul>
 {% endfor %}
-
-<hr/>
-
-<p><sub>
-* `*` denotes <strong>co-first author</strong>.<br/>
-* `†` denotes <strong>co-corresponding author</strong>.<br/>
-* `+` denotes <strong>corresponding author</strong>.
-</sub></p>
