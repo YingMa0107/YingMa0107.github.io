@@ -1,8 +1,7 @@
 ---
-layout: archive
+layout: default
 title: "Publications"
 permalink: /publications/
-author_profile: true
 ---
 
 {% assign groups = site.data.publish | sort: 'year' | reverse %}
@@ -18,10 +17,10 @@ author_profile: true
 </ul>
 {% endfor %}
 
----
+<hr>
 
-<sub>
-* `*` denotes **co-first author**.  
-* `†` denotes **co-corresponding author**.  
-* `+` denotes **corresponding author**.  
-</sub>
+<div class="pub-legend">
+  <span><code>*</code> co-first author</span> ·
+  <span><code>†</code> co-corresponding author</span> ·
+  <span><code>+</code> corresponding author</span>
+</div>
