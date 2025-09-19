@@ -1,103 +1,35 @@
-- title: "JADE: Joint Alignment and Deep Embedding for Multi-Slice Spatial Transcriptomics. Accepted by NeurIPS.  (*Co-Corresponding Author)"
-  image:
-  authors:  Yuanchuan Guo, Hun S. Liu*, Huimin Cheng*, **Ying Ma*** (2025).   
-  link:
-    url: 
-    display: NeurIPS 2025 (Top Machine Learning Conference, Accepted)
-  highlight: 0
-  
-- title: "Bridging histology and spatial gene expression across scales"
-  image: 
-  authors:  **Ying Ma**
-  link:
-    url: https://www.nature.com/articles/s41592-025-02806-z#citeas
-    display: Nature Methods 2025
-  highlight: 0
+- year: 2025
+  items:
+    - cite: "Guo, Yuanchuan; Hun S. Liu*; Huimin Cheng*; **Ying Ma*** (2025). “JADE: Joint Alignment and Deep Embedding for Multi-Slice Spatial Transcriptomics.” *NeurIPS 2025* (accepted). (*Co-corresponding author*)"
+    - cite: "**Ying Ma** (2025). “Bridging histology and spatial gene expression across scales.” *Nature Methods*. [Link](https://www.nature.com/articles/s41592-025-02806-z#citeas)"
+    - cite: "Jain, Atishay; David H. Laidlaw; **Ying Ma**; R. Singh (2025). “Improved Spatial Transcriptomics Clustering with Nested Graph Neural Networks.” *ACM-BCB 2025* (accepted)."
+    - cite: "Houcheng Li, Huicong Zhang, Pengju Zhao, Qi Zhang, Senlin Zhu, Tao Shi, Ya-Nan Wang, Jing-Sheng Lu, Liu Yang, John F O’Grady, David E MacHugh, Yu Wang, Zhenyu Wei, Xuemei Lu, Ming-Shan Wang, Bo Han, Weijie Zheng, Ao Chen, Shamima Akter, Nayan Bhowmik, **Ying Ma**, Ransom L Baldwin, Congjun Li, Jicai Jiang, Li Ma, Christian Maltecca, Junjian Wang, Mian Gong, Xiaoning Zhu, Qing Lin, Yang Xi, Di Zhu, Jinyan Teng, Dailu Guan, Bingxing An, Jilong Ren, Yali Hou, Fei Wang, Bingjie Li, Laurent AF Frantz, Greger Larson, Zexi Cai, Goutam Sahana, Yu Jiang, Huizeng Sun, Dongxiao Sun, Geroge E Liu, Lingzhao Fang (2025). “An atlas of cell type specific regulatory effects in cattle.” *Preprint*. [Link](https://www.biorxiv.org/content/10.1101/2025.06.23.661035v1)"
+    - cite: "Yağmur Halezeroğlu, Brenda M Chiang, Stephanie Adame, Aheli Chattopadhyay, **Ying Ma**, Jeff Barry, Katrina Abuabara (2025). “Atopic dermatitis is a risk factor for total joint arthroplasty surgical site infections.” *Journal of the European Academy of Dermatology and Venereology*. [Link](https://onlinelibrary.wiley.com/doi/abs/10.1111/jdv.20748)"
+    - cite: "Huimin Li, Bencong Zhu, Xi Jiang, **Ying Ma*, Lin Xu, Qiwei Li (2025). “Robust Bayesian Integrative Modeling of Single Cell and Spatially Resolved Transcriptomics Data.” *Preprint*. [Link](https://www.biorxiv.org/content/10.1101/2025.04.22.650087v1)"
+    - cite: "Nell Klimpert, Mihaly Kollo, David H Brann, Chichun Tan, David Barry, **Ying Ma*, Andreas T Schaefer, Alexander Fleischmann (2025). “3D spatial transcriptomics reveals the molecular structure of input and output pathways in the mouse olfactory bulb.” *Preprint*. [Link](https://www.biorxiv.org/content/10.1101/2025.02.19.639192v2)"
+    - cite: "Jianhong Chen, **Ying Ma**, Xubo Yue (2025). “Temporal Causal Discovery in Dynamic Bayesian Networks Using Federated Learning.” *Preprint*. [Link](https://www.nature.com/articles/s41592-024-02284-9)"
 
-- title: "Improved Spatial Transcriptomics Clustering with Nested Graph Neural Networks"
-  image: 
-  authors:  Atishay Jain, David H. Laidlaw, **Ying Ma**, and R. Singh
-  link:
-    url: https://www.nature.com/articles/s41592-025-02806-z#citeas
-    display: ACM-BCB 2025 (Accepted)
-  highlight: 0
-  
-- title: "Accurate and Efficient Integrative Reference-Informed Spatial Domain Detection for Spatial Transcriptomics "
-  image: IRIS_NM_2024.png
-  authors:  **Ying Ma** and Xiang Zhou
-  description: Spatially resolved transcriptomics (SRT) studies are becoming increasingly common and increasingly large, offering unprecedented opportunities to characterize the spatial and functional organization of complex tissues. Here, we introduce a computational method, IRIS, that characterizes the spatial organization of complex tissues through accurate and efficient detection of spatial domains. IRIS uniquely leverage the widespread availability of single-cell RNA-seq data for reference-informed spatial domain detection, integrates multiple SRT tissue slices jointly while explicitly considering correlation both within and across slices, produces biologically interpretable spatial domains, and benefits from multiple algorithmic innovations for highly scalable computation. We demonstrate the advantages of IRIS through in-depth analysis of six SRT datasets from different technologies across various tissues, species, and spatial resolutions. In these applications, IRIS attains an unprecedent 39% ~ 1,083% accuracy gain over existing methods in the gold standard dataset with known ground truth. Furthermore, IRIS is 4.6 ~ 666.0 times faster than existing methods in moderate-sized datasets and is the only method effective and applicable to large-scale SRT datasets, including the very recent stereo-seq and 10x Xenium. As a result, IRIS uncovers the fine-scale structures of brain regions, reveals the spatial heterogeneity of distinct tumor microenvironments, and characterizes the structural changes of the seminiferous tubes in the testis associated with diabetes, all at a speed and accuracy unachievable by existing approaches.
-  link:
-    url: https://www.nature.com/articles/s41592-024-02284-9
-    display: Nature Methods 2024
-  highlight: 1
+- year: 2024
+  items:
+    - cite: "**Ying Ma**; Xiang Zhou (2024). “Accurate and Efficient Integrative Reference-Informed Spatial Domain Detection for Spatial Transcriptomics.” *Nature Methods*. [Link](https://www.nature.com/articles/s41592-024-02284-9)"
+    - cite: "Yanghong Guo, Bencong Zhu, Chen Tang, Ruichen Rong, **Ying Ma**, Guanghua Xiao, Lin Xu, Qiwei Li (2024). “BayeSMART: Bayesian clustering of multi-sample spatially resolved transcriptomics data. [Link](https://academic.oup.com/bib/article/25/6/bbae524/7845936)" 
 
-- title: "ExPRSweb: An online repository with polygenic risk scores for common health-related exposures"
-  image:
-  authors:  **Ying Ma**, Snehal Patil, Xiang Zhou, Bhramar Mukherjee, Lars G Fritsche
-  link:
-    url: https://www.cell.com/ajhg/pdf/S0002-9297(22)00404-9.pdf
-    display: The American Journal of Human Genetics 2022
-  highlight: 0
+- year: 2022
+  items:
+    - cite: "**Ying Ma**; Snehal Patil; Xiang Zhou; Bhramar Mukherjee; Lars G. Fritsche (2022). “ExPRSweb: An online repository with polygenic risk scores for common health-related exposures.” *The American Journal of Human Genetics*. [PDF](https://www.cell.com/ajhg/pdf/S0002-9297(22)00404-9.pdf)"
+    - cite: "Zhao, Peiyao; Jiaqiang Zhu; **Ying Ma**; Xiang Zhou (2022). “Modeling zero inflation is not necessary for spatial transcriptomics.” *Genome Biology*. [DOI](https://doi.org/10.1186/s13059-022-02684-0)"
+    - cite: "**Ying Ma**; Xiang Zhou (2022). “Spatially informed cell type deconvolution for spatial transcriptomics.” *Nature Biotechnology*. [Link](https://www.nature.com/articles/s41587-022-01273-7)"
 
-- title: "Modeling zero inflation is not necessary for spatial transcriptomics"
-  image:
-  authors:  Peiyao Zhao, Jiaqiang Zhu, **Ying Ma**, Xiang Zhou
-  link:
-    url: https://doi.org/10.1186/s13059-022-02684-0
-    display: Genome Biology 2022
-  highlight: 0
+- year: 2021
+  items:
+    - cite: "**Ying Ma**; Xiang Zhou (2021). “Genetic prediction of complex traits with polygenic scores: a statistical review.” *Trends in Genetics*. [Link](https://www.cell.com/trends/genetics/fulltext/S0168-9525(21)00145-1)"
+    - cite: "Fritsche, Lars G.; **Ying Ma**; Daiwei Zhang; Maxwell Salvatore; Seunggeun Lee; Xiang Zhou; Bhramar Mukherjee (2021). “On cross-ancestry cancer polygenic risk scores.” *PLOS Genetics*. [Link](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009670)"
+    - cite: "Fritsche, Lars G.; Snehal Patil; Lauren J. Beesley; Peter VandeHaar; Maxwell Salvatore; **Ying Ma**; Robert B. Peng; Daniel Taliun; Xiang Zhou; Bhramar Mukherjee (2021). “Cancer PRSweb: an online repository with polygenic risk scores for major cancer traits and their evaluation in two independent biobanks.” *The American Journal of Human Genetics*. [PDF](https://www.cell.com/ajhg/pdf/S0002-9297(20)30320-7.pdf)"
 
-- title: "Spatially informed cell type deconvolution for spatial transcriptomics"
-  image: CARD_NBT_2022.jpg
-  authors: **Ying Ma** and Xiang Zhou
-  description: Many spatially resolved transcriptomic technologies do not have single-cell resolution but measure the average gene expression for each spot from a mixture of cells of potentially heterogeneous cell types. Here, we introduce a deconvolution method, conditional autoregressive-based deconvolution (CARD), that combines cell-type-specific expression information from single-cell RNA sequencing (scRNA-seq) with correlation in cell-type composition across tissue locations. Modeling spatial correlation allows us to borrow the cell-type composition information across locations, improving accuracy of deconvolution even with a mismatched scRNA-seq reference. CARD can also impute cell-type compositions and gene expression levels at unmeasured tissue locations to enable the construction of a refined spatial tissue map with a resolution arbitrarily higher than that measured in the original study and can perform deconvolution without an scRNA-seq reference. Applications to four datasets, including a pancreatic cancer dataset, identified multiple cell types and molecular markers with distinct spatial localization that define the progression, heterogeneity and compartmentalization of pancreatic cancer.
-  link:
-    url: https://www.nature.com/articles/s41587-022-01273-7
-    display: Nature Biotechnology 2022
-  highlight: 1
+- year: 2020
+  items:
+    - cite: "**Ying Ma**; Shiquan Sun; Xuequn Shang; Evan T. Keller; Mengjie Chen; Xiang Zhou (2020). “Integrative differential expression and gene set enrichment analysis using summary statistics for scRNA-seq studies.” *Nature Communications*. [Link](https://www.nature.com/articles/s41467-020-15298-6)"
 
-- title: "Genetic prediction of complex traits with polygenic scores: a statistical review"
-  image:
-  authors:  **Ying Ma** and Xiang Zhou
-  link:
-    url: https://www.cell.com/trends/genetics/fulltext/S0168-9525(21)00145-1
-    display: Trends in Genetics 2021
-  highlight: 0
-
-- title: "On cross-ancestry cancer polygenic risk scores"
-  image: CARD_NBT_2022.jpg
-  authors: Lars G Fritsche, **Ying Ma**, Daiwei Zhang, Maxwell Salvatore, Seunggeun Lee, Xiang Zhou, Bhramar Mukherjee
-  description: Many spatially resolved transcriptomic technologies do not have single-cell resolution but measure the average gene expression for each spot from a mixture of cells of potentially heterogeneous cell types. Here, we introduce a deconvolution method, conditional autoregressive-based deconvolution (CARD), that combines cell-type-specific expression information from single-cell RNA sequencing (scRNA-seq) with correlation in cell-type composition across tissue locations. Modeling spatial correlation allows us to borrow the cell-type composition information across locations, improving accuracy of deconvolution even with a mismatched scRNA-seq reference. CARD can also impute cell-type compositions and gene expression levels at unmeasured tissue locations to enable the construction of a refined spatial tissue map with a resolution arbitrarily higher than that measured in the original study and can perform deconvolution without an scRNA-seq reference. Applications to four datasets, including a pancreatic cancer dataset, identified multiple cell types and molecular markers with distinct spatial localization that define the progression, heterogeneity and compartmentalization of pancreatic cancer.
-  link:
-    url: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009670
-    display: PLoS genetics 2021
-  highlight: 0
-
-- title: "Cancer PRSweb: an online repository with polygenic risk scores for major cancer traits and their evaluation in two independent biobanks"
-  image:
-  authors:  Lars G Fritsche, Snehal Patil, Lauren J Beesley, Peter VandeHaar, Maxwell Salvatore, **Ying Ma**, Robert B Peng, Daniel Taliun, Xiang Zhou, Bhramar Mukherjee
-  link:
-    url: https://www.cell.com/ajhg/pdf/S0002-9297(20)30320-7.pdf
-    display: The American Journal of Human Genetics 2021
-  highlight: 0
-
-- title: "Integrative differential expression and gene set enrichment analysis using summary statistics for scRNA-seq studies"
-  image: iDEA_NC_2020.png
-  authors: **Ying Ma**, Shiquan Sun, Xuequn Shang, Evan T Keller, Mengjie Chen, Xiang Zhou
-  description: Differential expression (DE) analysis and gene set enrichment (GSE) analysis are commonly applied in single cell RNA sequencing (scRNA-seq) studies. Here, we develop an integrative and scalable computational method, iDEA, to perform joint DE and GSE analysis through a hierarchical Bayesian framework. By integrating DE and GSE analyses, iDEA can improve the power and consistency of DE analysis and the accuracy of GSE analysis. Importantly, iDEA uses only DE summary statistics as input, enabling effective data modeling through complementing and pairing with various existing DE methods. We illustrate the benefits of iDEA with extensive simulations. We also apply iDEA to analyze three scRNA-seq data sets, where iDEA achieves up to five-fold power gain over existing GSE methods and up to 64% power gain over existing DE methods
-  link:
-    url: https://www.nature.com/articles/s41467-020-15298-6
-    display: Nature communications 2020
-  highlight: 1 
-
-- title: "Accuracy, robustness and scalability of dimensionality reduction methods for single-cell RNA-seq analysis"
-  image: DR_GB_2019.png
-  authors: Shiquan Sun, Jiaqiang Zhu, **Ying Ma**, Xiang Zhou
-  description: Dimensionality reduction is an indispensable analytic component for many areas of single-cell RNA sequencing (scRNA-seq) data analysis. Proper dimensionality reduction can allow for effective noise removal and facilitate many downstream analyses that include cell clustering and lineage reconstruction. Unfortunately, despite the critical importance of dimensionality reduction in scRNA-seq analysis and the vast number of dimensionality reduction methods developed for scRNA-seq studies, few comprehensive comparison studies have been performed to evaluate the effectiveness of different dimensionality reduction methods in scRNA-seq. We aim to fill this critical knowledge gap by providing a comparative evaluation of a variety of commonly used dimensionality reduction methods for scRNA-seq studies. Specifically, we compare 18 different dimensionality reduction methods on 30 publicly available scRNA-seq datasets that cover a range of sequencing techniques and sample sizes. We evaluate the performance of different dimensionality reduction methods for neighborhood preserving in terms of their ability to recover features of the original expression matrix, and for cell clustering and lineage reconstruction in terms of their accuracy and robustness. We also evaluate the computational scalability of different dimensionality reduction methods by recording their computational cost. Based on the comprehensive evaluation results, we provide important guidelines for choosing dimensionality reduction methods for scRNA-seq data analysis.
-  link:
-    url: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1898-6
-    display: Genome Biology 2019
-  highlight: 0
-
-
-
+- year: 2019
+  items:
+    - cite: "Sun, Shiquan; Jiaqiang Zhu; **Ying Ma**; Xiang Zhou (2019). “Accuracy, robustness and scalability of dimensionality reduction methods for single-cell RNA-seq analysis.” *Genome Biology*. [Link](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1898-6)"
