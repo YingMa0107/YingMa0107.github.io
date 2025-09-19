@@ -16,4 +16,4 @@ author_profile: true
   {% endunless %}
 {% endif %}
 
-{% include pubs_by_year.html %}
+{% include publications.html %}
