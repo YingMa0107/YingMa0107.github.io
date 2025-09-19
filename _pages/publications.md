@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-{% assign groups = site.data.publish | sort: 'year' | reverse %}
+{% assign groups = site.data.pubs_by_year | sort: 'year' | reverse %}
 
 <nav class="years-nav" style="margin-bottom:1rem;">
   {% for g in groups %}
