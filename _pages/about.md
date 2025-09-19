@@ -53,7 +53,10 @@ We have openings for multiple positions, including postdoctoral fellows, graduat
 <div style="text-align:justify">
 {% assign newsItems = site.data.news | sort: 'date' | reverse %}
 {% for news in newsItems limit:5 %}
-<p>{{ news.date | date: "%Y-%m-%d" }}: {% assign titleParts = news.title | split: '**' %}{{ titleParts[0] }}<strong>{{ titleParts[1] }}</strong>{{ titleParts[2] }}</p>
+  <p>
+    {{ news.date | date: "%Y-%m-%d" }}:
+    {{ news.title | markdownify | strip_newlines | replace: '<p>','' | replace: '</p>','' }}
+  </p>
 {% endfor %}
 </div>
 For more news, please visit the [News](/news/) page.
