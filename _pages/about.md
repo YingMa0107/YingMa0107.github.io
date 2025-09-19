@@ -55,8 +55,9 @@ We have openings for multiple positions, including postdoctoral fellows, graduat
 {% for news in newsItems limit:5 %}
   <p>
     {{ news.date | date: "%Y-%m-%d" }}:
-    {{ news.title | markdownify | strip_newlines | replace: '<p>','' | replace: '</p>','' }}
+    {{ news.title | markdownify | remove: '<p>' | remove: '</p>' }}
   </p>
 {% endfor %}
 </div>
+
 For more news, please visit the [News](/news/) page.
