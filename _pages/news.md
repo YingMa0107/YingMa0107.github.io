@@ -8,7 +8,10 @@ author_profile: true
 <div style="text-align:justify">
 {% assign newsItems = site.data.news | sort: 'date' | reverse %}
 {% for news in newsItems %}
-<p>{{ news.date | date: "%Y-%m-%d" }}: {% assign titleParts = news.title | split: '**' %}{{ titleParts[0] }}<strong>{{ titleParts[1] }}</strong>{{ titleParts[2] }}</p>
+  <p>
+    {{ news.date | date: "%Y-%m-%d" }}:
+    {{ news.title | markdownify | remove: '<p>' | remove: '</p>' }}
+  </p>
 {% endfor %}
 </div>
 
