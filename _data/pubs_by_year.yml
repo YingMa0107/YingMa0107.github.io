@@ -1,16 +1,16 @@
 - year: 2025
   items:
     - cite: >-
-        Guo, Yuanchuan; Hun S. Liu*; Huimin Cheng*; **Ying Ma**† (2025).
+        Guo, Yuanchuan; Hun S. Liu†; Huimin Cheng†; **Ying Ma**† (2025).
         “JADE: Joint Alignment and Deep Embedding for Multi-Slice Spatial Transcriptomics.”
-        *NeurIPS 2025* (accepted). (*Co-corresponding author*)
+        ***NeurIPS 2025*** (accepted). (*Co-corresponding author*)
     - cite: >-
         **Ying Ma** (2025). “Bridging histology and spatial gene expression across scales.”
-        *Nature Methods*. [Link](https://www.nature.com/articles/s41592-025-02806-z#citeas)
+        ***Nature Methods***. [Link](https://www.nature.com/articles/s41592-025-02806-z#citeas)
     - cite: >-
         Jain, Atishay; David H. Laidlaw; **Ying Ma**; R. Singh (2025).
         “Improved Spatial Transcriptomics Clustering with Nested Graph Neural Networks.”
-        *ACM-BCB 2025* (accepted).
+        ***ACM-BCB 2025*** (accepted).
     - cite: >-
         Houcheng Li; Huicong Zhang; Pengju Zhao; Qi Zhang; Senlin Zhu; Tao Shi; Ya-Nan Wang;
         Jing-Sheng Lu; Liu Yang; John F. O’Grady; David E. MacHugh; Yu Wang; Zhenyu Wei;
@@ -19,21 +19,21 @@
         Junjian Wang; Mian Gong; Xiaoning Zhu; Qing Lin; Yang Xi; Di Zhu; Jinyan Teng; Dailu Guan;
         Bingxing An; Jilong Ren; Yali Hou; Fei Wang; Bingjie Li; Laurent A.F. Frantz; Greger Larson;
         Zexi Cai; Goutam Sahana; Yu Jiang; Huizeng Sun; Dongxiao Sun; George E. Liu; Lingzhao Fang (2025).
-        “An atlas of cell type specific regulatory effects in cattle.” *Preprint*.
+        “An atlas of cell type specific regulatory effects in cattle.” ***Preprint***.
         [Link](https://www.biorxiv.org/content/10.1101/2025.06.23.661035v1)
     - cite: >-
         Yağmur Halezeroğlu; Brenda M. Chiang; Stephanie Adame; Aheli Chattopadhyay; **Ying Ma**;
         Jeff Barry; Katrina Abuabara (2025). “Atopic dermatitis is a risk factor for total joint
-        arthroplasty surgical site infections.” *Journal of the European Academy of Dermatology and Venereology*.
+        arthroplasty surgical site infections.” ***Journal of the European Academy of Dermatology and Venereology***.
         [Link](https://onlinelibrary.wiley.com/doi/abs/10.1111/jdv.20748)
     - cite: >-
         Huimin Li; Bencong Zhu; Xi Jiang; **Ying Ma**; Lin Xu; Qiwei Li (2025).
         “Robust Bayesian Integrative Modeling of Single Cell and Spatially Resolved Transcriptomics Data.”
-        *Preprint*. [Link](https://www.biorxiv.org/content/10.1101/2025.04.22.650087v1)
+        ***Preprint***. [Link](https://www.biorxiv.org/content/10.1101/2025.04.22.650087v1)
     - cite: >-
         Nell Klimpert; Mihaly Kollo; David H. Brann; Chichun Tan; David Barry; **Ying Ma**;
         Andreas T. Schaefer; Alexander Fleischmann (2025). “3D spatial transcriptomics reveals the molecular
-        structure of input and output pathways in the mouse olfactory bulb.” *Preprint*.
+        structure of input and output pathways in the mouse olfactory bulb.” ***Preprint***.
         [Link](https://www.biorxiv.org/content/10.1101/2025.02.19.639192v2)
     - cite: >-
         Jianhong Chen; **Ying Ma**; Xubo Yue (2025). “Temporal Causal Discovery in Dynamic Bayesian Networks
@@ -43,41 +43,41 @@
   items:
     - cite: >-
         **Ying Ma**; Xiang Zhou (2024). “Accurate and Efficient Integrative Reference-Informed Spatial
-        Domain Detection for Spatial Transcriptomics.” *Nature Methods*.
+        Domain Detection for Spatial Transcriptomics.” ***Nature Methods***.
         [Link](https://www.nature.com/articles/s41592-024-02284-9)
     - cite: >-
         Yanghong Guo; Bencong Zhu; Chen Tang; Ruichen Rong; **Ying Ma**; Guanghua Xiao; Lin Xu; Qiwei Li (2024).
         “BayeSMART: Bayesian clustering of multi-sample spatially resolved transcriptomics data.”
-        *Briefings in Bioinformatics*. [Link](https://academic.oup.com/bib/article/25/6/bbae524/7845936)
+        ***Briefings in Bioinformatics***. [Link](https://academic.oup.com/bib/article/25/6/bbae524/7845936)
 
 - year: 2022
   items:
     - cite: >-
         **Ying Ma**; Snehal Patil; Xiang Zhou; Bhramar Mukherjee; Lars G. Fritsche (2022).
         “ExPRSweb: An online repository with polygenic risk scores for common health-related exposures.”
-        *The American Journal of Human Genetics*. [PDF](https://www.cell.com/ajhg/pdf/S0002-9297(22)00404-9.pdf)
+        ***The American Journal of Human Genetics***. [PDF](https://www.cell.com/ajhg/pdf/S0002-9297(22)00404-9.pdf)
     - cite: >-
         Zhao, Peiyao; Jiaqiang Zhu; **Ying Ma**; Xiang Zhou (2022). “Modeling zero inflation is not necessary
-        for spatial transcriptomics.” *Genome Biology*. [DOI](https://doi.org/10.1186/s13059-022-02684-0)
+        for spatial transcriptomics.” ***Genome Biology***. [DOI](https://doi.org/10.1186/s13059-022-02684-0)
     - cite: >-
         **Ying Ma**; Xiang Zhou (2022). “Spatially informed cell type deconvolution for spatial transcriptomics.”
-        *Nature Biotechnology*. [Link](https://www.nature.com/articles/s41587-022-01273-7)
+        ***Nature Biotechnology***. [Link](https://www.nature.com/articles/s41587-022-01273-7)
 
 - year: 2021
   items:
     - cite: >-
         **Ying Ma**; Xiang Zhou (2021). “Genetic prediction of complex traits with polygenic scores:
-        a statistical review.” *Trends in Genetics*.
+        a statistical review.” ***Trends in Genetics***.
         [Link](https://www.cell.com/trends/genetics/fulltext/S0168-9525(21)00145-1)
     - cite: >-
         Fritsche, Lars G.; **Ying Ma**; Daiwei Zhang; Maxwell Salvatore; Seunggeun Lee; Xiang Zhou;
-        Bhramar Mukherjee (2021). “On cross-ancestry cancer polygenic risk scores.” *PLOS Genetics*.
+        Bhramar Mukherjee (2021). “On cross-ancestry cancer polygenic risk scores.” ***PLOS Genetics***.
         [Link](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009670)
     - cite: >-
         Fritsche, Lars G.; Snehal Patil; Lauren J. Beesley; Peter VandeHaar; Maxwell Salvatore;
         **Ying Ma**; Robert B. Peng; Daniel Taliun; Xiang Zhou; Bhramar Mukherjee (2021).
         “Cancer PRSweb: an online repository with polygenic risk scores for major cancer traits and their
-        evaluation in two independent biobanks.” *The American Journal of Human Genetics*.
+        evaluation in two independent biobanks.” ***The American Journal of Human Genetics***.
         [PDF](https://www.cell.com/ajhg/pdf/S0002-9297(20)30320-7.pdf)
 
 - year: 2020
@@ -85,12 +85,12 @@
     - cite: >-
         **Ying Ma**; Shiquan Sun; Xuequn Shang; Evan T. Keller; Mengjie Chen; Xiang Zhou (2020).
         “Integrative differential expression and gene set enrichment analysis using summary statistics for
-        scRNA-seq studies.” *Nature Communications*.
+        scRNA-seq studies.” ***Nature Communications***.
         [Link](https://www.nature.com/articles/s41467-020-15298-6)
 
 - year: 2019
   items:
     - cite: >-
         Sun, Shiquan; Jiaqiang Zhu; **Ying Ma**; Xiang Zhou (2019). “Accuracy, robustness and scalability
-        of dimensionality reduction methods for single-cell RNA-seq analysis.” *Genome Biology*.
+        of dimensionality reduction methods for single-cell RNA-seq analysis.” ***Genome Biology***.
         [Link](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1898-6)
