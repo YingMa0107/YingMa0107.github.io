@@ -88,7 +88,7 @@ author:
   location 2       : "CCMB 323"
   #employer         :
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  google_scholar : "https://scholar.google.com/citations?hl=en&user=INVwBkIAAAAJ&view_op=list_works&sortby=pubdate"
+  googlescholar : "https://scholar.google.com/citations?hl=en&user=INVwBkIAAAAJ&view_op=list_works&sortby=pubdate"
   email            : "ying_ma@brown.edu"
   researchgate     : "https://www.researchgate.net/profile/Ying-Ma-26"
   uri              :
