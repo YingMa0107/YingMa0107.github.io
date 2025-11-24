@@ -46,7 +46,7 @@ I’m very fortunate to work with several amazing students to whom I serve as th
        style="width:180px;height:180px;object-fit:cover;object-position:center;margin-right:20px;background:white;">
   <div style="line-height:1.4;">
     <p style="margin:0;"><strong>Yu (Zoe) Zhu</strong><br>
-    PhD Student, Computational Biology, Brown University</p>
+    PhD Candidate, Computational Biology, Brown University</p>
     <p style="margin:6px 0 0;">B.S. in Biochemistry, B.A. in Mathematics, and Minor in Bioinformatics</p>
   </div>
 </div>
