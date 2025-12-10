@@ -1,20 +1,29 @@
 - year: 2025
   items:
     - cite: >-
+        Chichun Tan and **Ying Ma**# (2025).
+        “A Spatially Informed Matrix Normal Model for Gene Co-expression Analysis in Spatial Transcriptomics Studies.”
+        ***Nucleic Acids Research*** [Link](https://doi.org/10.1093/nar/gkaf1264)
+    - cite: >-
         Guo, Yuanchuan; Jun S. Liu#; Huimin Cheng#; **Ying Ma**# (2025).
         “JADE: Joint Alignment and Deep Embedding for Multi-Slice Spatial Transcriptomics.”
         ***NeurIPS 2025*** (accepted). 
     - cite: >-
-        Chichun Tan and **Ying Ma**# (2025).
-        “A Spatially Informed Matrix Normal Model for Gene Co-expression Analysis in Spatial Transcriptomics Studies.”
-        ***Nucleic Acids Research*** (accepted). 
-    - cite: >-
         **Ying Ma#** (2025). “Bridging histology and spatial gene expression across scales.”
         ***Nature Methods*** (commentary paper) [Link](https://www.nature.com/articles/s41592-025-02806-z#citeas)
     - cite: >-
-        Jain, Atishay; David H. Laidlaw; **Ying Ma**; R. Singh (2025).
+        Andrew Yang, Joshua Woo, Ryan Zhang, Alan Mach, Prem Ramkumar, **Ying Ma**# (2025).
+        “Tool-wielding language-model-based agent offers conversational exploration of clinical tabular data.”
+        ***Preprint***.
+        [Link](https://www.medrxiv.org/content/10.64898/2025.12.01.25341392v1)
+    - cite: >-
+         Atishay Jain, Tuan M. Pham, David H. Laidlaw, **Ying Ma**, Ritambhara Singh (2025).
+        “Diffusion-based Representation Integration for Foundation Models Improves Spatial Transcriptomics Analysis.”
+        ***preprint*** (accepted) [link](https://www.biorxiv.org/content/10.1101/2025.11.20.689624v1).
+    - cite: >-
+        Atishay Jain, David H. Laidlaw, **Ying Ma**, Ritambhara Singh (2025).
         “Improved Spatial Transcriptomics Clustering with Nested Graph Neural Networks.”
-        ***ACM-BCB 2025*** (accepted).
+        ***ACM-BCB 2025*** (accepted) [link](https://www.biorxiv.org/content/10.1101/2025.02.03.636316v1).
     - cite: >-
         Houcheng Li; Huicong Zhang; Pengju Zhao; Qi Zhang; Senlin Zhu; Tao Shi; Ya-Nan Wang;
         Jing-Sheng Lu; Liu Yang; John F. O’Grady; David E. MacHugh; Yu Wang; Zhenyu Wei;
