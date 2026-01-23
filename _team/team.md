@@ -66,7 +66,7 @@ I’m very fortunate to work with several amazing students to whom I serve as th
        style="width:180px;height:180px;object-fit:cover;object-position:center;margin-right:20px;background:white;">
   <div style="line-height:1.4;">
     <p style="margin:0;"><strong>Seowon Chang</strong><br>
-    1st year PhD Student, currently rotating at the Singh lab, Computational Biology, Brown University</p>
+    1st year PhD Student, Computational Biology, Brown University</p>
     <p style="margin:6px 0 0;">B.S. in Computer Science and Applied Mathematics</p>
   </div>
 </div>
