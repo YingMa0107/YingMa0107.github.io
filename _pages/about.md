@@ -38,7 +38,7 @@ My research interests focus on developing efficient statistical learning methods
 8. Statistical Optimization
 
 
-{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+{% include carousel.html height="50" unit="%" duration="10" number="1" %}
 
 
 Hiring
