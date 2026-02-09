@@ -10,6 +10,9 @@ carousels:
 - images: 
     - image: /images/IRIS_NM_2024.png
     - image: /assets/images/carousels/CARD_NBT_2022.jpg
+    - image: /images/ChatDA-Figure1-R1.jpg
+    - image: /images/spMOCA_NAR_2025.png
+    - image: /images/JADE_NeurIPS_2025.png
     - image: /assets/images/carousels/iDEA_NC_2020.png
     - image: /assets/images/carousels/ExPRSWeb_AJHG_2022.jpeg
     - image: /assets/images/carousels/PRS_TIG_2022.jpg
