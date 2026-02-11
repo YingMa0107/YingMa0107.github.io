@@ -1,6 +1,11 @@
 - year: 2026
   items:
     - cite: >-
+        Jinhua Lyu, Tianmin Yu, **Ying Ma**#, Naichen Shi# (2026).
+        “Scalable Mean-Field Variational Inference via Preconditioned Primal–Dual Optimization.”
+        ***preprint*** 
+        [Link](https://www.arxiv.org/pdf/2602.07632)
+    - cite: >-
         Andrew Yang, Joshua Woo, Ryan Zhang, Alan Mach, Prem Ramkumar, **Ying Ma**# (2026).
         “Tool-wielding language-model-based agent offers conversational exploration of clinical tabular data.”
         ***npj Artificial Intelligence*** 
