@@ -2,30 +2,30 @@
   items:
     - cite: >-
         Andrew Yang*, Chichun Tan*, **Ying Ma**# (2026).
-        “Interpretable and scalable spatial gene set activity analysis with GESSO uncovers functional tissue architecture.”
-        ***preprint***
+        "Interpretable and scalable spatial gene set activity analysis with GESSO uncovers functional tissue architecture."
+        **preprint**
     - cite: >-
         Ruohan Wang*, Yu Zhu*, Zixiao Gao, **Ying Ma**# (2026).
-        “CrossHONA: Cross-species HOmologous and Non-homologous gene-aware framework for transcriptomics integration and Annotation.”
-        ***STAI-X 2026, Paper Award***
+        "CrossHONA: Cross-species HOmologous and Non-homologous gene-aware framework for transcriptomics integration and Annotation."
+        **STAI-X 2026, Paper Award**
     - cite: >-
         Zizhao Xie, Yanghong Guo, Qiwei Li#, **Ying Ma**# (2026).
-        “Spatial Gene Set Enrichment Analysis with Applications to Spatially Resolved Transcriptomic Data.”
-        ***preprint*** 
+        "Spatial Gene Set Enrichment Analysis with Applications to Spatially Resolved Transcriptomic Data."
+        **preprint**
         [Link](https://www.biorxiv.org/content/10.64898/2026.06.01.729158v1)
     - cite: >-
         Seowon Chang, Alex Fleischmann, **Ying Ma**# (2026).
-        “Scalable, Generalizable, and Uncertainty-Aware Integration of Spatial Multi-Omics Across Diverse Modalities and Platforms with SCIGMA.”
-        ***(Nature Genetics) Accepted in Principle*** 
+        "Scalable, Generalizable, and Uncertainty-Aware Integration of Spatial Multi-Omics Across Diverse Modalities and Platforms with SCIGMA."
+        **Nature Genetics, Accepted in Principle**
     - cite: >-
         Jinhua Lyu, Tianmin Yu, **Ying Ma**#, Naichen Shi# (2026).
-        “Scalable Mean-Field Variational Inference via Preconditioned Primal–Dual Optimization.”
-        ***preprint*** 
+        "Scalable Mean-Field Variational Inference via Preconditioned Primal-Dual Optimization."
+        **preprint**
         [Link](https://www.arxiv.org/pdf/2602.07632)
     - cite: >-
         Andrew Yang, Joshua Woo, Ryan Zhang, Alan Mach, Prem Ramkumar, **Ying Ma**# (2026).
-        “Tool-wielding language-model-based agent offers conversational exploration of clinical tabular data.”
-        ***npj Artificial Intelligence*** 
+        "Tool-wielding language-model-based agent offers conversational exploration of clinical tabular data."
+        **npj Artificial Intelligence**
         [Link](https://www.nature.com/articles/s44387-025-00070-2)
 
 - year: 2025
