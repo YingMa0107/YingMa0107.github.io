@@ -1,11 +1,11 @@
 - year: 2026
   items:
     - cite: >-
-        Andrew Yang*, Chichun Tan*, **Ying Ma**# (2026).
+        Andrew Yang\*, Chichun Tan\*, **Ying Ma**# (2026).
         "Interpretable and scalable spatial gene set activity analysis with GESSO uncovers functional tissue architecture."
         **preprint**
     - cite: >-
-        Ruohan Wang*, Yu Zhu*, Zixiao Gao, **Ying Ma**# (2026).
+        Ruohan Wang\*, Yu Zhu\*, Zixiao Gao, **Ying Ma**# (2026).
         "CrossHONA: Cross-species HOmologous and Non-homologous gene-aware framework for transcriptomics integration and Annotation."
         **STAI-X 2026, Paper Award**
     - cite: >-
