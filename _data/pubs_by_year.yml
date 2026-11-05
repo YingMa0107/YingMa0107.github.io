@@ -1,10 +1,25 @@
 - year: 2026
   items:
     - cite: >-
+        Yu Zhu, Ritambhara Singh, **Ying Ma**# (2026).
+        "NovAST: A Deep Learning Framework for Automated Label Transfer and Novel Cell Type Discovery in Spatial Transcriptomics."
+        Accepted in Principle at **Nature Communications**
+        [Link]
+    - cite: >-
         Andrew Yang\*, Chichun Tan\*, **Ying Ma**# (2026).
         "Interpretable and scalable spatial gene set activity analysis with GESSO uncovers functional tissue architecture."
-        Accepted in Principle at **Nature Communications**
-        [preprint link](https://www.biorxiv.org/content/10.64898/2026.07.02.736099v1)
+        **Nature Communications**
+        [link](https://www.nature.com/articles/s41467-026-78316-z)
+    - cite: >-
+        Peiyao Zhao, Justin A. Colacino, **Ying Ma**#, Xiang Zhou# (2026).
+        "Enhancing cell type deconvolution in spatial transcriptomics through incorporating multiple reference panels."
+        **PLOS Genetics**
+        [link](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012345)
+    - cite: >-
+        Jonathan Xu, Andrew Yang, Chichun Tan, Ruohan Wang, **Ying Ma**# (2026).
+        "stRBench: Benchmarking Large Language Models for R-Based Spatial Transcriptomics Data Analysis."
+        Accepted at **BIBM AgIA4BioHealth workshop 2026**
+        [Link]
     - cite: >-
         Ruohan Wang\*, Yu Zhu\*, Zixiao Gao, **Ying Ma**# (2026).
         "CrossHONA: Cross-species HOmologous and Non-homologous gene-aware framework for transcriptomics integration and Annotation."
@@ -18,7 +33,8 @@
     - cite: >-
         Seowon Chang, Alex Fleischmann, **Ying Ma**# (2026).
         "Scalable, Generalizable, and Uncertainty-Aware Integration of Spatial Multi-Omics Across Diverse Modalities and Platforms with SCIGMA."
-        **Nature Genetics, in press**
+        **Nature Genetics**
+        [Link](https://www.nature.com/articles/s41588-026-02706-8)
     - cite: >-
         Jinhua Lyu, Tianmin Yu, **Ying Ma**#, Naichen Shi# (2026).
         "Scalable Mean-Field Variational Inference via Preconditioned Primal-Dual Optimization."
